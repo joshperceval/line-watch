@@ -1,23 +1,32 @@
+name: Deploy site to Pages
+
+# This replaces GitHub's automatic "Deploy from a branch" pipeline with an
+# explicit workflow we control. It runs whenever this branch is updated
+# (including by the "Update betting tips" workflow committing new data).
+
 on:
   push:
     branches: ["main"]
   workflow_dispatch: {}
   workflow_run:
-    workflows: ["Update betting tips"]   # must match the `name:` in update.yml exactly
+    workflows: ["Update betting tips", "Update match stats"]
     types: [completed]
- 
+
 permissions:
   contents: read
   pages: write
   id-token: write
- 
+
 # Only one deployment at a time; don't cancel one that's already running.
 concurrency:
   group: "pages"
   cancel-in-progress: false
- 
+
 jobs:
   deploy:
+    # Skip if this was triggered by a workflow_run that failed - no point
+    # redeploying the site with a data update that didn't actually work.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -25,16 +34,15 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
- 
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
- 
+
       - name: Upload site as Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: "."   # our whole repo root is the site - no build step needed
- 
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
- 
