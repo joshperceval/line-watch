@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Line Watch — Sports Betting Tips</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --turf: #0F2E1D;
+    --board: #12140F;
+    --chalk: #F2F0E6;
+    --amber: #E8A33D;
+    --slate: #6E8FB0;
+    --line: rgba(242, 240, 230, 0.14);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--board);
+    color: var(--chalk);
+    font-family: 'Barlow Condensed', sans-serif;
+    min-height: 100vh;
+  }
+
+  .site-header {
+    background: var(--turf);
+    border-bottom: 3px solid var(--amber);
+    padding: 28px 24px 20px;
+  }
+
+  .site-header h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: clamp(2rem, 5vw, 3rem);
+    letter-spacing: 0.02em;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .site-header h1 span { color: var(--amber); }
+
+  .site-header p {
+    margin: 6px 0 0;
+    color: var(--slate);
+    font-size: 1.05rem;
+  }
+
+  /* --- Scrolling ticker: the signature element --- */
+  .ticker-wrap {
+    background: var(--board);
+    border-bottom: 1px solid var(--line);
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px 0;
+  }
+
+  .ticker {
+    display: inline-block;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9rem;
+    padding-left: 100%;
+    animation: scroll-left 45s linear infinite;
+  }
+
+  .ticker span { margin-right: 48px; color: var(--chalk); }
+  .ticker span b { color: var(--amber); }
+
+  @keyframes scroll-left {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
+
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 32px 24px 80px;
+  }
+
+  .meta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+    color: var(--slate);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.85rem;
+  }
+
+  .disclaimer {
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--amber);
+    padding: 14px 18px;
+    font-size: 0.95rem;
+    color: var(--slate);
+    margin-bottom: 32px;
+    line-height: 1.5;
+  }
+
+  .disclaimer strong { color: var(--chalk); }
+
+  .card {
+    background: rgba(242, 240, 230, 0.03);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    margin-bottom: 18px;
+    overflow: hidden;
+  }
+
+  .card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .card-head .sport-tag {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--turf);
+    background: var(--amber);
+    padding: 3px 8px;
+    border-radius: 2px;
+  }
+
+  .card-head .kickoff {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.8rem;
+    color: var(--slate);
+  }
+
+  .match-name {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 10px 18px 4px;
+  }
+
+  .tip-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 18px;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.95rem;
+    border-top: 1px dashed var(--line);
+  }
+
+  .tip-row.top {
+    background: rgba(232, 163, 61, 0.08);
+    font-weight: 700;
+  }
+
+  .tip-row .odds { color: var(--amber); }
+  .tip-row.top .odds { font-size: 1.1rem; }
+
+  .selection-name { flex: 1; }
+  .prob { color: var(--slate); margin-left: 12px; }
+
+  .empty-state, .loading {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--slate);
+    font-family: 'Space Mono', monospace;
+  }
+
+  footer {
+    text-align: center;
+    padding: 24px;
+    color: var(--slate);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--line);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .ticker { animation: none; padding-left: 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <h1>LINE<span>WATCH</span></h1>
+  <p>Data-driven tips across football, basketball &amp; tennis — updated automatically</p>
+</header>
+
+<div class="ticker-wrap">
+  <div class="ticker" id="ticker">Loading fixtures…</div>
+</div>
+
+<main>
+  <div class="meta-row">
+    <span id="last-updated">Last updated: —</span>
+    <span id="tip-count-label">— tips tracked</span>
+  </div>
+
+  <div class="disclaimer">
+    <strong>Read this first.</strong> These tips are generated from statistical
+    comparisons of public bookmaker odds. They are not guarantees, financial
+    advice, or a promise of winnings. Betting involves risk — never bet more
+    than you can afford to lose. 18+. If gambling is affecting you or someone
+    you know, contact <a href="https://www.begambleaware.org" style="color: var(--amber);">BeGambleAware.org</a>.
+  </div>
+
+  <div id="tips-container" class="loading">Fetching latest tips…</div>
+</main>
+
+<footer>
+  Built with GitHub Pages + GitHub Actions. Odds data via The Odds API.
+</footer>
+
+<script>
+async function loadTips() {
+  const container = document.getElementById('tips-container');
+  const ticker = document.getElementById('ticker');
+
+  try {
+    // Cache-bust so visitors always see the freshest committed file
+    const res = await fetch('data/tips.json?t=' + Date.now());
+    if (!res.ok) throw new Error('tips.json not found yet');
+    const data = await res.json();
+
+    document.getElementById('last-updated').textContent =
+      'Last updated: ' + new Date(data.generated_at).toLocaleString();
+    document.getElementById('tip-count-label').textContent =
+      data.tip_count + ' tips tracked';
+
+    if (!data.tips || data.tips.length === 0) {
+      container.className = 'empty-state';
+      container.textContent = 'No fixtures with odds right now — check back soon.';
+      ticker.textContent = 'No fixtures currently available.';
+      return;
+    }
+
+    // Build the scrolling ticker
+    ticker.innerHTML = data.tips.map(t =>
+      `<span>${t.match} <b>${t.top_tip.selection} @ ${t.top_tip.best_odds}</b></span>`
+    ).join('');
+
+    // Build the tip cards
+    container.className = '';
+    container.innerHTML = data.tips.map(tip => {
+      const kickoff = new Date(tip.commence_time).toLocaleString([], {
+        weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit'
+      });
+
+      const rows = tip.all_selections.map((sel, i) => `
+        <div class="tip-row ${i === 0 ? 'top' : ''}">
+          <span class="selection-name">${i === 0 ? '★ ' : ''}${sel.selection}</span>
+          <span class="prob">${sel.implied_probability_pct}% implied</span>
+          <span class="odds">${sel.best_odds}</span>
+        </div>
+      `).join('');
+
+      return `
+        <div class="card">
+          <div class="card-head">
+            <span class="sport-tag">${tip.sport}</span>
+            <span class="kickoff">${kickoff}</span>
+          </div>
+          <div class="match-name">${tip.match}</div>
+          ${rows}
+        </div>
+      `;
+    }).join('');
+
+  } catch (err) {
+    container.className = 'empty-state';
+    container.textContent = 'Tips haven\'t been generated yet. Run the GitHub Action or fetch_data.py locally.';
+    ticker.textContent = 'Waiting for first data update…';
+    console.error(err);
+  }
+}
+
+loadTips();
+</script>
+
+</body>
+</html>

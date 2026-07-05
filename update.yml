@@ -1,0 +1,41 @@
+name: Update betting tips
+
+# This makes the site "live": GitHub runs this job automatically on the
+# schedule below, fetches fresh data, and commits the update to the repo.
+on:
+  schedule:
+    # Runs at minute 0 past every 3rd hour (00:00, 03:00, 06:00, ...)
+    # Times are in UTC. Adjust the "*/3" to change frequency.
+    - cron: "0 */3 * * *"
+  workflow_dispatch: {}   # lets you also trigger it manually from the Actions tab
+
+permissions:
+  contents: write   # allows the workflow to commit the updated tips.json
+
+jobs:
+  update-tips:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run data fetch script
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python fetch_data.py
+
+      - name: Commit updated tips
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/tips.json
+          git diff --quiet --cached || git commit -m "Auto-update tips $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
