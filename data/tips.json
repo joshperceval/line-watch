@@ -1,0 +1,496 @@
+{
+  "generated_at": "2026-07-05T21:33:19.398011+00:00",
+  "tip_count": 15,
+  "tips": [
+    {
+      "sport": "Tennis (ATP Wimbledon)",
+      "match": "Felix Auger-Aliassime vs Novak Djokovic",
+      "commence_time": "2026-07-06T09:00:00Z",
+      "top_tip": {
+        "selection": "Felix Auger-Aliassime",
+        "best_odds": 3.0,
+        "average_odds": 2.75,
+        "implied_probability_pct": 36.4,
+        "num_bookmakers": 16
+      },
+      "all_selections": [
+        {
+          "selection": "Felix Auger-Aliassime",
+          "best_odds": 3.0,
+          "average_odds": 2.75,
+          "implied_probability_pct": 36.4,
+          "num_bookmakers": 16
+        },
+        {
+          "selection": "Novak Djokovic",
+          "best_odds": 1.6,
+          "average_odds": 1.44,
+          "implied_probability_pct": 69.3,
+          "num_bookmakers": 16
+        }
+      ]
+    },
+    {
+      "sport": "Tennis (ATP Wimbledon)",
+      "match": "Alex de Minaur vs Flavio Cobolli",
+      "commence_time": "2026-07-06T12:00:00Z",
+      "top_tip": {
+        "selection": "Flavio Cobolli",
+        "best_odds": 4.4,
+        "average_odds": 4.01,
+        "implied_probability_pct": 24.9,
+        "num_bookmakers": 19
+      },
+      "all_selections": [
+        {
+          "selection": "Flavio Cobolli",
+          "best_odds": 4.4,
+          "average_odds": 4.01,
+          "implied_probability_pct": 24.9,
+          "num_bookmakers": 19
+        },
+        {
+          "selection": "Alex de Minaur",
+          "best_odds": 1.28,
+          "average_odds": 1.24,
+          "implied_probability_pct": 80.5,
+          "num_bookmakers": 19
+        }
+      ]
+    },
+    {
+      "sport": "Tennis (ATP Wimbledon)",
+      "match": "Grigor Dimitrov vs Arthur Fery",
+      "commence_time": "2026-07-06T14:30:00Z",
+      "top_tip": {
+        "selection": "Arthur Fery",
+        "best_odds": 3.0,
+        "average_odds": 2.73,
+        "implied_probability_pct": 36.6,
+        "num_bookmakers": 20
+      },
+      "all_selections": [
+        {
+          "selection": "Arthur Fery",
+          "best_odds": 3.0,
+          "average_odds": 2.73,
+          "implied_probability_pct": 36.6,
+          "num_bookmakers": 20
+        },
+        {
+          "selection": "Grigor Dimitrov",
+          "best_odds": 1.49,
+          "average_odds": 1.45,
+          "implied_probability_pct": 68.8,
+          "num_bookmakers": 20
+        }
+      ]
+    },
+    {
+      "sport": "Tennis (ATP Wimbledon)",
+      "match": "Taylor Fritz vs Alexander Bublik",
+      "commence_time": "2026-07-06T16:00:00Z",
+      "top_tip": {
+        "selection": "Alexander Bublik",
+        "best_odds": 2.92,
+        "average_odds": 2.72,
+        "implied_probability_pct": 36.8,
+        "num_bookmakers": 20
+      },
+      "all_selections": [
+        {
+          "selection": "Alexander Bublik",
+          "best_odds": 2.92,
+          "average_odds": 2.72,
+          "implied_probability_pct": 36.8,
+          "num_bookmakers": 20
+        },
+        {
+          "selection": "Taylor Fritz",
+          "best_odds": 1.52,
+          "average_odds": 1.46,
+          "implied_probability_pct": 68.5,
+          "num_bookmakers": 20
+        }
+      ]
+    },
+    {
+      "sport": "Tennis (ATP Wimbledon)",
+      "match": "Jiri Lehecka vs Alexander Zverev",
+      "commence_time": "2026-07-06T16:30:00Z",
+      "top_tip": {
+        "selection": "Jiri Lehecka",
+        "best_odds": 3.8,
+        "average_odds": 3.45,
+        "implied_probability_pct": 29.0,
+        "num_bookmakers": 19
+      },
+      "all_selections": [
+        {
+          "selection": "Jiri Lehecka",
+          "best_odds": 3.8,
+          "average_odds": 3.45,
+          "implied_probability_pct": 29.0,
+          "num_bookmakers": 19
+        },
+        {
+          "selection": "Alexander Zverev",
+          "best_odds": 1.35,
+          "average_odds": 1.31,
+          "implied_probability_pct": 76.2,
+          "num_bookmakers": 19
+        }
+      ]
+    },
+    {
+      "sport": "Football (Premier League)",
+      "match": "Arsenal vs Coventry City",
+      "commence_time": "2026-08-21T19:00:00Z",
+      "top_tip": {
+        "selection": "Coventry City",
+        "best_odds": 22.0,
+        "average_odds": 14.74,
+        "implied_probability_pct": 6.8,
+        "num_bookmakers": 17
+      },
+      "all_selections": [
+        {
+          "selection": "Coventry City",
+          "best_odds": 22.0,
+          "average_odds": 14.74,
+          "implied_probability_pct": 6.8,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Draw",
+          "best_odds": 8.0,
+          "average_odds": 7.13,
+          "implied_probability_pct": 14.0,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Arsenal",
+          "best_odds": 1.17,
+          "average_odds": 1.16,
+          "implied_probability_pct": 86.4,
+          "num_bookmakers": 17
+        }
+      ]
+    },
+    {
+      "sport": "Football (Premier League)",
+      "match": "Hull City vs Manchester United",
+      "commence_time": "2026-08-22T11:30:00Z",
+      "top_tip": {
+        "selection": "Hull City",
+        "best_odds": 7.4,
+        "average_odds": 6.37,
+        "implied_probability_pct": 15.7,
+        "num_bookmakers": 17
+      },
+      "all_selections": [
+        {
+          "selection": "Hull City",
+          "best_odds": 7.4,
+          "average_odds": 6.37,
+          "implied_probability_pct": 15.7,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Draw",
+          "best_odds": 4.8,
+          "average_odds": 4.49,
+          "implied_probability_pct": 22.3,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Manchester United",
+          "best_odds": 1.47,
+          "average_odds": 1.43,
+          "implied_probability_pct": 70.0,
+          "num_bookmakers": 17
+        }
+      ]
+    },
+    {
+      "sport": "Football (Premier League)",
+      "match": "Everton vs Crystal Palace",
+      "commence_time": "2026-08-22T14:00:00Z",
+      "top_tip": {
+        "selection": "Draw",
+        "best_odds": 3.6,
+        "average_odds": 3.46,
+        "implied_probability_pct": 28.9,
+        "num_bookmakers": 17
+      },
+      "all_selections": [
+        {
+          "selection": "Draw",
+          "best_odds": 3.6,
+          "average_odds": 3.46,
+          "implied_probability_pct": 28.9,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Crystal Palace",
+          "best_odds": 3.5,
+          "average_odds": 3.37,
+          "implied_probability_pct": 29.7,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Everton",
+          "best_odds": 2.14,
+          "average_odds": 2.02,
+          "implied_probability_pct": 49.5,
+          "num_bookmakers": 17
+        }
+      ]
+    },
+    {
+      "sport": "Football (Premier League)",
+      "match": "Ipswich Town vs Sunderland",
+      "commence_time": "2026-08-22T14:00:00Z",
+      "top_tip": {
+        "selection": "Draw",
+        "best_odds": 3.5,
+        "average_odds": 3.33,
+        "implied_probability_pct": 30.1,
+        "num_bookmakers": 17
+      },
+      "all_selections": [
+        {
+          "selection": "Draw",
+          "best_odds": 3.5,
+          "average_odds": 3.33,
+          "implied_probability_pct": 30.1,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Ipswich Town",
+          "best_odds": 2.78,
+          "average_odds": 2.62,
+          "implied_probability_pct": 38.2,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Sunderland",
+          "best_odds": 2.6,
+          "average_odds": 2.52,
+          "implied_probability_pct": 39.7,
+          "num_bookmakers": 17
+        }
+      ]
+    },
+    {
+      "sport": "Football (Premier League)",
+      "match": "Nottingham Forest vs Leeds United",
+      "commence_time": "2026-08-22T14:00:00Z",
+      "top_tip": {
+        "selection": "Draw",
+        "best_odds": 3.6,
+        "average_odds": 3.43,
+        "implied_probability_pct": 29.1,
+        "num_bookmakers": 17
+      },
+      "all_selections": [
+        {
+          "selection": "Draw",
+          "best_odds": 3.6,
+          "average_odds": 3.43,
+          "implied_probability_pct": 29.1,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Leeds United",
+          "best_odds": 3.25,
+          "average_odds": 3.09,
+          "implied_probability_pct": 32.4,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Nottingham Forest",
+          "best_odds": 2.28,
+          "average_odds": 2.16,
+          "implied_probability_pct": 46.4,
+          "num_bookmakers": 17
+        }
+      ]
+    },
+    {
+      "sport": "Football (Premier League)",
+      "match": "Brentford vs Tottenham Hotspur",
+      "commence_time": "2026-08-22T16:30:00Z",
+      "top_tip": {
+        "selection": "Draw",
+        "best_odds": 3.75,
+        "average_odds": 3.55,
+        "implied_probability_pct": 28.2,
+        "num_bookmakers": 17
+      },
+      "all_selections": [
+        {
+          "selection": "Draw",
+          "best_odds": 3.75,
+          "average_odds": 3.55,
+          "implied_probability_pct": 28.2,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Tottenham Hotspur",
+          "best_odds": 2.64,
+          "average_odds": 2.53,
+          "implied_probability_pct": 39.5,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Brentford",
+          "best_odds": 2.6,
+          "average_odds": 2.49,
+          "implied_probability_pct": 40.2,
+          "num_bookmakers": 17
+        }
+      ]
+    },
+    {
+      "sport": "Football (Premier League)",
+      "match": "Brighton and Hove Albion vs Aston Villa",
+      "commence_time": "2026-08-23T13:00:00Z",
+      "top_tip": {
+        "selection": "Draw",
+        "best_odds": 3.8,
+        "average_odds": 3.62,
+        "implied_probability_pct": 27.6,
+        "num_bookmakers": 17
+      },
+      "all_selections": [
+        {
+          "selection": "Draw",
+          "best_odds": 3.8,
+          "average_odds": 3.62,
+          "implied_probability_pct": 27.6,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Brighton and Hove Albion",
+          "best_odds": 2.38,
+          "average_odds": 2.24,
+          "implied_probability_pct": 44.7,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Aston Villa",
+          "best_odds": 2.9,
+          "average_odds": 2.82,
+          "implied_probability_pct": 35.4,
+          "num_bookmakers": 17
+        }
+      ]
+    },
+    {
+      "sport": "Football (Premier League)",
+      "match": "Manchester City vs Bournemouth",
+      "commence_time": "2026-08-23T13:00:00Z",
+      "top_tip": {
+        "selection": "Bournemouth",
+        "best_odds": 6.5,
+        "average_odds": 6.11,
+        "implied_probability_pct": 16.4,
+        "num_bookmakers": 17
+      },
+      "all_selections": [
+        {
+          "selection": "Bournemouth",
+          "best_odds": 6.5,
+          "average_odds": 6.11,
+          "implied_probability_pct": 16.4,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Draw",
+          "best_odds": 5.25,
+          "average_odds": 4.95,
+          "implied_probability_pct": 20.2,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Manchester City",
+          "best_odds": 1.47,
+          "average_odds": 1.41,
+          "implied_probability_pct": 71.1,
+          "num_bookmakers": 17
+        }
+      ]
+    },
+    {
+      "sport": "Football (Premier League)",
+      "match": "Newcastle United vs Liverpool",
+      "commence_time": "2026-08-23T15:30:00Z",
+      "top_tip": {
+        "selection": "Newcastle United",
+        "best_odds": 3.0,
+        "average_odds": 2.78,
+        "implied_probability_pct": 36.0,
+        "num_bookmakers": 17
+      },
+      "all_selections": [
+        {
+          "selection": "Newcastle United",
+          "best_odds": 3.0,
+          "average_odds": 2.78,
+          "implied_probability_pct": 36.0,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Draw",
+          "best_odds": 4.0,
+          "average_odds": 3.78,
+          "implied_probability_pct": 26.4,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Liverpool",
+          "best_odds": 2.3,
+          "average_odds": 2.19,
+          "implied_probability_pct": 45.6,
+          "num_bookmakers": 17
+        }
+      ]
+    },
+    {
+      "sport": "Football (Premier League)",
+      "match": "Fulham vs Chelsea",
+      "commence_time": "2026-08-24T19:00:00Z",
+      "top_tip": {
+        "selection": "Chelsea",
+        "best_odds": 2.3,
+        "average_odds": 2.1,
+        "implied_probability_pct": 47.5,
+        "num_bookmakers": 17
+      },
+      "all_selections": [
+        {
+          "selection": "Chelsea",
+          "best_odds": 2.3,
+          "average_odds": 2.1,
+          "implied_probability_pct": 47.5,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Draw",
+          "best_odds": 3.8,
+          "average_odds": 3.6,
+          "implied_probability_pct": 27.8,
+          "num_bookmakers": 17
+        },
+        {
+          "selection": "Fulham",
+          "best_odds": 3.25,
+          "average_odds": 3.06,
+          "implied_probability_pct": 32.6,
+          "num_bookmakers": 17
+        }
+      ]
+    }
+  ]
+}
