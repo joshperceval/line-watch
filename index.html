@@ -14,6 +14,7 @@
     --amber: #E8A33D;
     --slate: #6E8FB0;
     --line: rgba(242, 240, 230, 0.14);
+    --insight: #8FBF9F;
   }
 
   * { box-sizing: border-box; }
@@ -24,6 +25,7 @@
     color: var(--chalk);
     font-family: 'Barlow Condensed', sans-serif;
     min-height: 100vh;
+    padding-bottom: 80px; /* room for the floating acca bar */
   }
 
   .site-header {
@@ -33,7 +35,6 @@
   }
 
   .site-header h1 {
-    font-family: 'Barlow Condensed', sans-serif;
     font-weight: 700;
     font-size: clamp(2rem, 5vw, 3rem);
     letter-spacing: 0.02em;
@@ -49,7 +50,6 @@
     font-size: 1.05rem;
   }
 
-  /* --- Scrolling ticker: the signature element --- */
   .ticker-wrap {
     background: var(--board);
     border-bottom: 1px solid var(--line);
@@ -77,7 +77,7 @@
   main {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 32px 24px 80px;
+    padding: 32px 24px 40px;
   }
 
   .meta-row {
@@ -143,6 +143,36 @@
     padding: 10px 18px 4px;
   }
 
+  /* --- Market tabs --- */
+  .market-tabs {
+    display: flex;
+    gap: 6px;
+    padding: 10px 18px 0;
+    flex-wrap: wrap;
+  }
+
+  .market-tab {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--slate);
+    background: transparent;
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .market-tab.active {
+    color: var(--board);
+    background: var(--amber);
+    border-color: var(--amber);
+  }
+
+  .market-panel { display: none; }
+  .market-panel.active { display: block; }
+
   .tip-row {
     display: flex;
     justify-content: space-between;
@@ -151,6 +181,7 @@
     font-family: 'Space Mono', monospace;
     font-size: 0.95rem;
     border-top: 1px dashed var(--line);
+    gap: 10px;
   }
 
   .tip-row.top {
@@ -161,8 +192,46 @@
   .tip-row .odds { color: var(--amber); }
   .tip-row.top .odds { font-size: 1.1rem; }
 
-  .selection-name { flex: 1; }
-  .prob { color: var(--slate); margin-left: 12px; }
+  .selection-name { flex: 1; min-width: 0; }
+  .prob { color: var(--slate); white-space: nowrap; }
+
+  .add-btn {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.85rem;
+    background: transparent;
+    color: var(--amber);
+    border: 1px solid var(--amber);
+    border-radius: 3px;
+    width: 26px;
+    height: 26px;
+    line-height: 1;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+
+  .add-btn:hover { background: var(--amber); color: var(--board); }
+  .add-btn.added { background: var(--amber); color: var(--board); }
+
+  /* --- Stats insight panel (separate from odds - clearly labelled) --- */
+  .insight-panel {
+    margin: 10px 18px 14px;
+    padding: 10px 12px;
+    border: 1px dashed var(--insight);
+    border-radius: 3px;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.82rem;
+    color: var(--insight);
+  }
+
+  .insight-panel .insight-title {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    margin-bottom: 6px;
+    opacity: 0.85;
+  }
+
+  .insight-row { display: flex; justify-content: space-between; padding: 2px 0; }
 
   .empty-state, .loading {
     text-align: center;
@@ -177,6 +246,87 @@
     color: var(--slate);
     font-size: 0.85rem;
     border-top: 1px solid var(--line);
+  }
+
+  /* --- Floating acca (bet slip) builder --- */
+  .acca-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--turf);
+    border-top: 2px solid var(--amber);
+    padding: 10px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Space Mono', monospace;
+    cursor: pointer;
+    z-index: 40;
+  }
+
+  .acca-bar .acca-summary { font-size: 0.9rem; }
+  .acca-bar .acca-summary b { color: var(--amber); }
+  .acca-bar .acca-toggle-hint { color: var(--slate); font-size: 0.8rem; }
+
+  .acca-panel {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 52px;
+    max-height: 60vh;
+    overflow-y: auto;
+    background: var(--board);
+    border-top: 1px solid var(--line);
+    box-shadow: 0 -8px 24px rgba(0,0,0,0.4);
+    z-index: 39;
+    display: none;
+  }
+
+  .acca-panel.open { display: block; }
+
+  .acca-panel-inner { max-width: 1000px; margin: 0 auto; padding: 14px 18px; }
+
+  .acca-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--line);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.85rem;
+    gap: 10px;
+  }
+
+  .acca-item .item-details { flex: 1; min-width: 0; }
+  .acca-item .item-match { color: var(--slate); font-size: 0.75rem; display: block; }
+  .acca-item .remove-btn {
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--chalk);
+    border-radius: 3px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+
+  .acca-empty {
+    color: var(--slate);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.85rem;
+    padding: 12px 0;
+  }
+
+  .acca-clear {
+    margin-top: 8px;
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--slate);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.78rem;
+    padding: 6px 10px;
+    border-radius: 3px;
+    cursor: pointer;
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -202,83 +352,267 @@
   </div>
 
   <div class="disclaimer">
-    <strong>Read this first.</strong> These tips are generated from statistical
-    comparisons of public bookmaker odds. They are not guarantees, financial
-    advice, or a promise of winnings. Betting involves risk — never bet more
-    than you can afford to lose. 18+. If gambling is affecting you or someone
-    you know, contact <a href="https://www.begambleaware.org" style="color: var(--amber);">BeGambleAware.org</a>.
+    <strong>Read this first.</strong> Match Winner, Total Goals, and Handicap
+    tips are generated from statistical comparisons of public bookmaker odds.
+    Corners/Cards insights (marked separately, in green) are our own
+    estimates from recent match stats - not verified against bookmaker
+    prices. None of this is a guarantee, financial advice, or a promise of
+    winnings. Betting involves risk — never bet more than you can afford to
+    lose. 18+. If gambling is affecting you or someone you know, contact
+    <a href="https://www.begambleaware.org" style="color: var(--amber);">BeGambleAware.org</a>.
   </div>
 
   <div id="tips-container" class="loading">Fetching latest tips…</div>
 </main>
 
 <footer>
-  Built with GitHub Pages + GitHub Actions. Odds data via The Odds API.
+  Built with GitHub Pages + GitHub Actions. Odds via The Odds API. Match stats via API-Football.
 </footer>
 
+<!-- Floating acca / bet slip builder -->
+<div class="acca-bar" id="acca-bar">
+  <span class="acca-summary" id="acca-summary">0 selections in your acca</span>
+  <span class="acca-toggle-hint" id="acca-hint">Tap to view</span>
+</div>
+<div class="acca-panel" id="acca-panel">
+  <div class="acca-panel-inner">
+    <div id="acca-list"></div>
+  </div>
+</div>
+
 <script>
+const MARKET_LABELS = { h2h: 'Match Winner', totals: 'Total Goals/Points', spreads: 'Handicap' };
+const STORAGE_KEY = 'lineWatchAccaSlip';
+
+let accaSlip = [];
+try {
+  accaSlip = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+} catch (e) {
+  accaSlip = [];
+}
+
+// ---------- Team-name matching between the two data sources ----------
+function normalise(name) {
+  return (name || '')
+    .toLowerCase()
+    .replace(/\bfc\b/g, '')
+    .replace(/\bafc\b/g, '')
+    .replace(/[^a-z0-9\s]/g, '')
+    .trim();
+}
+
+function findInsight(tipMatchName, insights) {
+  const normMatch = normalise(tipMatchName);
+  return insights.find(i => {
+    const homeOk = normMatch.includes(normalise(i.home_team));
+    const awayOk = normMatch.includes(normalise(i.away_team));
+    return homeOk && awayOk;
+  });
+}
+
+// ---------- Acca slip logic ----------
+function saveSlip() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(accaSlip));
+  renderAccaBar();
+}
+
+function addToSlip(item) {
+  const exists = accaSlip.some(s => s.id === item.id);
+  if (exists) {
+    accaSlip = accaSlip.filter(s => s.id !== item.id);
+  } else {
+    accaSlip.push(item);
+  }
+  saveSlip();
+  refreshAddButtons();
+  renderAccaPanel();
+}
+
+function removeFromSlip(id) {
+  accaSlip = accaSlip.filter(s => s.id !== id);
+  saveSlip();
+  refreshAddButtons();
+  renderAccaPanel();
+}
+
+function refreshAddButtons() {
+  document.querySelectorAll('.add-btn').forEach(btn => {
+    const id = btn.dataset.id;
+    btn.classList.toggle('added', accaSlip.some(s => s.id === id));
+  });
+}
+
+function renderAccaBar() {
+  const summary = document.getElementById('acca-summary');
+  if (accaSlip.length === 0) {
+    summary.innerHTML = '0 selections in your acca';
+    return;
+  }
+  const combined = accaSlip.reduce((acc, s) => acc * s.odds, 1);
+  summary.innerHTML = `${accaSlip.length} selection${accaSlip.length > 1 ? 's' : ''} — combined odds <b>${combined.toFixed(2)}</b>`;
+}
+
+function renderAccaPanel() {
+  const list = document.getElementById('acca-list');
+  if (accaSlip.length === 0) {
+    list.innerHTML = '<div class="acca-empty">No selections yet - tap the + button on any tip to add it here.</div>';
+    return;
+  }
+  list.innerHTML = accaSlip.map(s => `
+    <div class="acca-item">
+      <div class="item-details">
+        ${s.selection} <span style="color: var(--amber);">@ ${s.odds}</span>
+        <span class="item-match">${s.match} — ${MARKET_LABELS[s.market] || s.market}</span>
+      </div>
+      <button class="remove-btn" onclick="removeFromSlip('${s.id}')">✕</button>
+    </div>
+  `).join('') + `<button class="acca-clear" onclick="clearSlip()">Clear all</button>`;
+}
+
+function clearSlip() {
+  accaSlip = [];
+  saveSlip();
+  refreshAddButtons();
+  renderAccaPanel();
+}
+
+document.getElementById('acca-bar').addEventListener('click', () => {
+  document.getElementById('acca-panel').classList.toggle('open');
+});
+
+// ---------- Building each match card ----------
+function selectionRow(tip, marketKey, sel, isTop) {
+  const id = (tip.match + '|' + marketKey + '|' + sel.selection).replace(/'/g, "");
+  const inSlip = accaSlip.some(s => s.id === id);
+  const payload = JSON.stringify({ id: id, match: tip.match, market: marketKey, selection: sel.selection, odds: sel.best_odds }).replace(/'/g, "&#39;");
+  return `
+    <div class="tip-row ${isTop ? 'top' : ''}">
+      <span class="selection-name">${isTop ? '★ ' : ''}${sel.selection}</span>
+      <span class="prob">${sel.implied_probability_pct}% implied</span>
+      <span class="odds">${sel.best_odds}</span>
+      <button class="add-btn ${inSlip ? 'added' : ''}" data-id="${id}" onclick='addToSlip(${payload})'>+</button>
+    </div>
+  `;
+}
+
+function insightHtml(insight) {
+  if (!insight) return '';
+  const rows = [];
+  if (insight.estimated_total_corners != null) {
+    rows.push(`<div class="insight-row"><span>Estimated total corners</span><span>${insight.estimated_total_corners}</span></div>`);
+  }
+  if (insight.estimated_total_yellow_cards != null) {
+    rows.push(`<div class="insight-row"><span>Estimated total yellow cards</span><span>${insight.estimated_total_yellow_cards}</span></div>`);
+  }
+  if (rows.length === 0) return '';
+  return `
+    <div class="insight-panel">
+      <div class="insight-title">Stats insight (last ${insight.based_on_last_n_matches} matches per team - not bookmaker odds)</div>
+      ${rows.join('')}
+    </div>
+  `;
+}
+
+function cardHtml(tip, insight, cardIndex) {
+  const kickoff = new Date(tip.commence_time).toLocaleString([], {
+    weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit'
+  });
+
+  const marketKeys = Object.keys(tip.markets);
+  const tabs = marketKeys.map((mk, i) => `
+    <button class="market-tab ${i === 0 ? 'active' : ''}" data-card="${cardIndex}" data-market="${mk}">
+      ${MARKET_LABELS[mk] || mk}
+    </button>
+  `).join('');
+
+  const panels = marketKeys.map((mk, i) => {
+    const rows = tip.markets[mk].map((sel, j) => selectionRow(tip, mk, sel, j === 0)).join('');
+    return `<div class="market-panel ${i === 0 ? 'active' : ''}" data-card="${cardIndex}" data-market="${mk}">${rows}</div>`;
+  }).join('');
+
+  return `
+    <div class="card">
+      <div class="card-head">
+        <span class="sport-tag">${tip.sport}</span>
+        <span class="kickoff">${kickoff}</span>
+      </div>
+      <div class="match-name">${tip.match}</div>
+      <div class="market-tabs">${tabs}</div>
+      ${panels}
+      ${insightHtml(insight)}
+    </div>
+  `;
+}
+
+// ---------- Load everything ----------
 async function loadTips() {
   const container = document.getElementById('tips-container');
   const ticker = document.getElementById('ticker');
 
+  let tipsData, statsData;
+
   try {
-    // Cache-bust so visitors always see the freshest committed file
     const res = await fetch('data/tips.json?t=' + Date.now());
     if (!res.ok) throw new Error('tips.json not found yet');
-    const data = await res.json();
-
-    document.getElementById('last-updated').textContent =
-      'Last updated: ' + new Date(data.generated_at).toLocaleString();
-    document.getElementById('tip-count-label').textContent =
-      data.tip_count + ' tips tracked';
-
-    if (!data.tips || data.tips.length === 0) {
-      container.className = 'empty-state';
-      container.textContent = 'No fixtures with odds right now — check back soon.';
-      ticker.textContent = 'No fixtures currently available.';
-      return;
-    }
-
-    // Build the scrolling ticker
-    ticker.innerHTML = data.tips.map(t =>
-      `<span>${t.match} <b>${t.top_tip.selection} @ ${t.top_tip.best_odds}</b></span>`
-    ).join('');
-
-    // Build the tip cards
-    container.className = '';
-    container.innerHTML = data.tips.map(tip => {
-      const kickoff = new Date(tip.commence_time).toLocaleString([], {
-        weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit'
-      });
-
-      const rows = tip.all_selections.map((sel, i) => `
-        <div class="tip-row ${i === 0 ? 'top' : ''}">
-          <span class="selection-name">${i === 0 ? '★ ' : ''}${sel.selection}</span>
-          <span class="prob">${sel.implied_probability_pct}% implied</span>
-          <span class="odds">${sel.best_odds}</span>
-        </div>
-      `).join('');
-
-      return `
-        <div class="card">
-          <div class="card-head">
-            <span class="sport-tag">${tip.sport}</span>
-            <span class="kickoff">${kickoff}</span>
-          </div>
-          <div class="match-name">${tip.match}</div>
-          ${rows}
-        </div>
-      `;
-    }).join('');
-
+    tipsData = await res.json();
   } catch (err) {
     container.className = 'empty-state';
-    container.textContent = 'Tips haven\'t been generated yet. Run the GitHub Action or fetch_data.py locally.';
+    container.textContent = "Tips haven't been generated yet. Run the GitHub Action or fetch_data.py locally.";
     ticker.textContent = 'Waiting for first data update…';
     console.error(err);
+    return;
   }
+
+  try {
+    const statsRes = await fetch('data/stats.json?t=' + Date.now());
+    statsData = statsRes.ok ? await statsRes.json() : { insights: [] };
+  } catch (err) {
+    statsData = { insights: [] };
+  }
+
+  document.getElementById('last-updated').textContent =
+    'Last updated: ' + new Date(tipsData.generated_at).toLocaleString();
+  document.getElementById('tip-count-label').textContent =
+    tipsData.tip_count + ' tips tracked';
+
+  if (!tipsData.tips || tipsData.tips.length === 0) {
+    container.className = 'empty-state';
+    container.textContent = 'No fixtures with odds right now — check back soon.';
+    ticker.textContent = 'No fixtures currently available.';
+    return;
+  }
+
+  ticker.innerHTML = tipsData.tips.map(t =>
+    `<span>${t.match} <b>${t.top_tip.selection} @ ${t.top_tip.best_odds}</b></span>`
+  ).join('');
+
+  const insights = (statsData && statsData.insights) || [];
+
+  container.className = '';
+  container.innerHTML = tipsData.tips.map((tip, i) => {
+    const insight = findInsight(tip.match, insights);
+    return cardHtml(tip, insight, i);
+  }).join('');
+
+  // Wire up market tabs
+  document.querySelectorAll('.market-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      const card = tab.dataset.card;
+      const market = tab.dataset.market;
+      document.querySelectorAll('.market-tab[data-card="' + card + '"]').forEach(t =>
+        t.classList.toggle('active', t.dataset.market === market));
+      document.querySelectorAll('.market-panel[data-card="' + card + '"]').forEach(p =>
+        p.classList.toggle('active', p.dataset.market === market));
+    });
+  });
+
+  refreshAddButtons();
+  renderAccaBar();
+  renderAccaPanel();
 }
 
+renderAccaBar();
+renderAccaPanel();
 loadTips();
 </script>
 
