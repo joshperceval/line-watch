@@ -6,7 +6,7 @@ on:
   schedule:
     # Runs at minute 0 past every 3rd hour (00:00, 03:00, 06:00, ...)
     # Times are in UTC. Adjust the "*/3" to change frequency.
-    - cron: "0 */3 * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch: {}   # lets you also trigger it manually from the Actions tab
 
 permissions:
