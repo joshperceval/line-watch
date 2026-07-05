@@ -1,0 +1,39 @@
+name: Update match stats
+
+# Runs once a day (not every 3 hours like the odds update) to stay well
+# within API-Football's free 100 requests/day limit.
+on:
+  schedule:
+    - cron: "30 5 * * *"   # 05:30 UTC daily - change the hour if you like
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run stats fetch script
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python fetch_stats.py
+
+      - name: Commit updated stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/stats.json
+          git diff --quiet --cached || git commit -m "Auto-update match stats $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
