@@ -4,11 +4,18 @@ fetch_data.py
 This script is the "brain" of the site. Every time it runs, it:
 
 1. Calls The Odds API to get upcoming fixtures + bookmaker odds for
-   football (soccer), basketball, and tennis.
+   football (soccer), basketball, and tennis - across THREE markets:
+     - h2h     (match winner / moneyline)
+     - totals  (over/under goals, points, or games)
+     - spreads (handicap)
 2. Works out the "implied probability" each bookmaker's odds represent.
 3. Compares bookmakers against each other to find the best available
    price for each outcome (a simple, honest starting model).
 4. Saves everything into data/tips.json, which the website reads.
+
+Note: corners, cards, and player props aren't covered here - free odds
+APIs generally don't carry those markets. See fetch_stats.py for a
+separate, stats-based (not bookmaker-odds-based) way to estimate those.
 
 You don't need to understand every line to use this. Read the comments
 (the lines starting with #) to see what each part does, and the
@@ -37,6 +44,11 @@ SPORTS = {
     "tennis_atp_wimbledon": "Tennis (ATP Wimbledon)",
 }
 
+# Which markets to pull. Each additional market costs more of your
+# monthly request quota, so keep an eye on usage if you add more sports.
+# h2h = match winner, totals = over/under, spreads = handicap
+MARKETS = "h2h,totals,spreads"
+
 BASE_URL = "https://api.the-odds-api.com/v4/sports/{sport}/odds"
 
 # ---------------------------------------------------------------------
@@ -49,7 +61,7 @@ def fetch_odds(sport_key):
     params = {
         "apiKey": API_KEY,
         "regions": "uk",       # bookmakers to use: uk, us, eu, au
-        "markets": "h2h",      # h2h = head-to-head / moneyline (simplest market)
+        "markets": MARKETS,
         "oddsFormat": "decimal",
     }
     response = requests.get(url, params=params, timeout=30)
@@ -62,7 +74,7 @@ def fetch_odds(sport_key):
 
 
 # ---------------------------------------------------------------------
-# STEP 2: Turn raw odds into a simple "tip"
+# STEP 2: Turn raw odds into tips, organised by market
 # ---------------------------------------------------------------------
 
 def implied_probability(decimal_odds):
@@ -70,42 +82,41 @@ def implied_probability(decimal_odds):
     return 1 / decimal_odds
 
 
-def build_tip(game, sport_label):
+def analyse_market(bookmakers, market_key):
     """
-    Looks across every bookmaker offering odds on this game and:
-      - finds the best (highest) price for each team/outcome
+    Looks across every bookmaker offering this market on this game and:
+      - finds the best (highest) price for each outcome
       - flags the outcome where bookmakers most disagree with each
         other as the closest thing we have right now to a "value" tip
 
-    This is intentionally simple to start with. See "HOW TO EXTEND
-    THIS" below for how to fold in real player/team form data.
+    For totals/spreads, outcomes with different lines (e.g. Over 2.5 vs
+    Over 3.5) are kept separate, since they're not really the same bet.
     """
-    bookmakers = game.get("bookmakers", [])
-    if not bookmakers:
-        return None
-
-    # Collect all prices quoted for each outcome (e.g. each team name)
+    # outcome_prices key = (selection name, line/point if any)
     outcome_prices = {}
+
     for bookmaker in bookmakers:
         for market in bookmaker.get("markets", []):
-            if market["key"] != "h2h":
+            if market["key"] != market_key:
                 continue
             for outcome in market["outcomes"]:
                 name = outcome["name"]
+                point = outcome.get("point")  # e.g. 2.5 for "Over 2.5"
                 price = outcome["price"]
-                outcome_prices.setdefault(name, []).append(price)
+                key = (name, point)
+                outcome_prices.setdefault(key, []).append(price)
 
     if not outcome_prices:
-        return None
+        return []
 
-    # For each outcome, work out the best odds and the average odds.
-    # A big gap between "best" and "average" can indicate value.
     analysis = []
-    for name, prices in outcome_prices.items():
+    for (name, point), prices in outcome_prices.items():
         best = max(prices)
         avg = sum(prices) / len(prices)
+        label = f"{name} {point}" if point is not None else name
         analysis.append({
-            "selection": name,
+            "selection": label,
+            "point": point,
             "best_odds": round(best, 2),
             "average_odds": round(avg, 2),
             "implied_probability_pct": round(implied_probability(avg) * 100, 1),
@@ -114,13 +125,38 @@ def build_tip(game, sport_label):
 
     # Sort so the outcome with the biggest best-vs-average gap comes first
     analysis.sort(key=lambda a: a["best_odds"] - a["average_odds"], reverse=True)
+    return analysis
+
+
+def build_tip(game, sport_label):
+    """Builds the full multi-market tip object for a single fixture."""
+    bookmakers = game.get("bookmakers", [])
+    if not bookmakers:
+        return None
+
+    markets = {}
+    for market_key in MARKETS.split(","):
+        selections = analyse_market(bookmakers, market_key)
+        if selections:
+            markets[market_key] = selections
+
+    if not markets:
+        return None
+
+    # Keep a single "top_tip" for the scrolling ticker - prefer h2h,
+    # otherwise fall back to whatever market we do have.
+    top_tip = None
+    if "h2h" in markets:
+        top_tip = markets["h2h"][0]
+    else:
+        top_tip = next(iter(markets.values()))[0]
 
     return {
         "sport": sport_label,
         "match": f"{game.get('home_team')} vs {game.get('away_team')}",
         "commence_time": game.get("commence_time"),
-        "top_tip": analysis[0],
-        "all_selections": analysis,
+        "top_tip": top_tip,
+        "markets": markets,
     }
 
 
@@ -168,15 +204,14 @@ if __name__ == "__main__":
 # HOW TO EXTEND THIS (once you're comfortable with the basics):
 #
 # 1. Real predictive modelling: instead of only comparing bookmakers
-#    against each other, pull team/player stats from API-Football /
-#    API-Basketball / API-Tennis (recent form, head-to-head history,
-#    injuries) and calculate YOUR OWN estimated probability. Compare
-#    that to the bookmaker's implied probability - if yours is higher,
-#    that's a genuine "value bet" signal, not just a bookmaker
-#    disagreement.
+#    against each other, pull team/player stats and calculate YOUR OWN
+#    estimated probability. Compare that to the bookmaker's implied
+#    probability - if yours is higher, that's a genuine "value bet"
+#    signal, not just a bookmaker disagreement.
 #
-# 2. More markets: add "spreads" (handicap) and "totals" (over/under)
-#    to the `markets` parameter above, e.g. "h2h,spreads,totals".
+# 2. Corners, cards, player props: see fetch_stats.py, which builds
+#    these from raw match statistics rather than bookmaker odds (most
+#    free odds APIs don't carry these markets).
 #
 # 3. More leagues: add more sport_key entries to SPORTS. Full list at
 #    https://the-odds-api.com/sports-odds-data/sports-apis.html
