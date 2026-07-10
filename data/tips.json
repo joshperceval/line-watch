@@ -1,88 +1,104 @@
 {
-  "generated_at": "2026-07-10T16:38:07.045329+00:00",
+  "generated_at": "2026-07-10T21:39:23.447970+00:00",
   "tip_count": 11,
   "tips": [
     {
       "sport": "Tennis (ATP Wimbledon)",
-      "match": "Jannik Sinner vs Novak Djokovic",
-      "commence_time": "2026-07-10T15:16:00Z",
+      "match": "Jannik Sinner vs Alexander Zverev",
+      "commence_time": "2026-07-12T11:00:00Z",
       "top_tip": {
-        "selection": "Novak Djokovic",
+        "selection": "Alexander Zverev",
         "point": null,
-        "best_odds": 11.0,
-        "average_odds": 9.63,
-        "implied_probability_pct": 10.4,
-        "num_bookmakers": 18
+        "best_odds": 4.9,
+        "average_odds": 4.44,
+        "implied_probability_pct": 22.5,
+        "num_bookmakers": 20
       },
       "markets": {
         "h2h": [
           {
-            "selection": "Novak Djokovic",
+            "selection": "Alexander Zverev",
             "point": null,
-            "best_odds": 11.0,
-            "average_odds": 9.63,
-            "implied_probability_pct": 10.4,
-            "num_bookmakers": 18
+            "best_odds": 4.9,
+            "average_odds": 4.44,
+            "implied_probability_pct": 22.5,
+            "num_bookmakers": 20
           },
           {
             "selection": "Jannik Sinner",
             "point": null,
-            "best_odds": 1.1,
-            "average_odds": 1.06,
-            "implied_probability_pct": 94.8,
-            "num_bookmakers": 18
+            "best_odds": 1.25,
+            "average_odds": 1.2,
+            "implied_probability_pct": 83.0,
+            "num_bookmakers": 20
           }
         ],
         "totals": [
           {
-            "selection": "Under 35.5",
-            "point": 35.5,
-            "best_odds": 1.74,
-            "average_odds": 1.73,
-            "implied_probability_pct": 57.8,
+            "selection": "Over 37.5",
+            "point": 37.5,
+            "best_odds": 1.78,
+            "average_odds": 1.78,
+            "implied_probability_pct": 56.2,
             "num_bookmakers": 2
           },
           {
-            "selection": "Over 35.5",
-            "point": 35.5,
-            "best_odds": 2.05,
-            "average_odds": 2.04,
-            "implied_probability_pct": 49.1,
+            "selection": "Under 37.5",
+            "point": 37.5,
+            "best_odds": 1.97,
+            "average_odds": 1.97,
+            "implied_probability_pct": 50.8,
             "num_bookmakers": 2
           },
           {
-            "selection": "Over 32.5",
-            "point": 32.5,
-            "best_odds": 1.75,
-            "average_odds": 1.75,
-            "implied_probability_pct": 57.1,
+            "selection": "Over 39.5",
+            "point": 39.5,
+            "best_odds": 1.88,
+            "average_odds": 1.88,
+            "implied_probability_pct": 53.2,
             "num_bookmakers": 1
           },
           {
-            "selection": "Under 32.5",
-            "point": 32.5,
-            "best_odds": 1.98,
-            "average_odds": 1.98,
-            "implied_probability_pct": 50.5,
+            "selection": "Under 39.5",
+            "point": 39.5,
+            "best_odds": 1.8,
+            "average_odds": 1.8,
+            "implied_probability_pct": 55.6,
             "num_bookmakers": 1
           }
         ],
         "spreads": [
           {
-            "selection": "Novak Djokovic 5.5",
+            "selection": "Alexander Zverev 3.5",
+            "point": 3.5,
+            "best_odds": 2.63,
+            "average_odds": 2.63,
+            "implied_probability_pct": 38.0,
+            "num_bookmakers": 2
+          },
+          {
+            "selection": "Jannik Sinner -3.5",
+            "point": -3.5,
+            "best_odds": 1.45,
+            "average_odds": 1.45,
+            "implied_probability_pct": 69.0,
+            "num_bookmakers": 2
+          },
+          {
+            "selection": "Alexander Zverev 5.5",
             "point": 5.5,
-            "best_odds": 2.12,
-            "average_odds": 2.09,
-            "implied_probability_pct": 47.9,
-            "num_bookmakers": 3
+            "best_odds": 1.65,
+            "average_odds": 1.65,
+            "implied_probability_pct": 60.6,
+            "num_bookmakers": 1
           },
           {
             "selection": "Jannik Sinner -5.5",
             "point": -5.5,
-            "best_odds": 1.71,
-            "average_odds": 1.68,
-            "implied_probability_pct": 59.5,
-            "num_bookmakers": 3
+            "best_odds": 2.05,
+            "average_odds": 2.05,
+            "implied_probability_pct": 48.8,
+            "num_bookmakers": 1
           }
         ]
       }
@@ -373,8 +389,8 @@
             "selection": "Nottingham Forest",
             "point": null,
             "best_odds": 2.26,
-            "average_odds": 2.16,
-            "implied_probability_pct": 46.2,
+            "average_odds": 2.17,
+            "implied_probability_pct": 46.1,
             "num_bookmakers": 18
           }
         ],
