@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T07:23:52.538034+00:00",
+  "generated_at": "2026-07-11T12:05:19.529699+00:00",
   "tip_count": 11,
   "tips": [
     {
@@ -9,9 +9,9 @@
       "top_tip": {
         "selection": "Alexander Zverev",
         "point": null,
-        "best_odds": 5.1,
-        "average_odds": 4.59,
-        "implied_probability_pct": 21.8,
+        "best_odds": 5.3,
+        "average_odds": 4.66,
+        "implied_probability_pct": 21.4,
         "num_bookmakers": 20
       },
       "markets": {
@@ -19,9 +19,9 @@
           {
             "selection": "Alexander Zverev",
             "point": null,
-            "best_odds": 5.1,
-            "average_odds": 4.59,
-            "implied_probability_pct": 21.8,
+            "best_odds": 5.3,
+            "average_odds": 4.66,
+            "implied_probability_pct": 21.4,
             "num_bookmakers": 20
           },
           {
@@ -37,33 +37,33 @@
           {
             "selection": "Under 38.5",
             "point": 38.5,
-            "best_odds": 1.94,
-            "average_odds": 1.9,
-            "implied_probability_pct": 52.8,
+            "best_odds": 1.96,
+            "average_odds": 1.91,
+            "implied_probability_pct": 52.5,
             "num_bookmakers": 2
           },
           {
             "selection": "Over 38.5",
             "point": 38.5,
-            "best_odds": 1.91,
+            "best_odds": 1.9,
             "average_odds": 1.88,
-            "implied_probability_pct": 53.2,
+            "implied_probability_pct": 53.3,
             "num_bookmakers": 2
           },
           {
             "selection": "Over 37.5",
             "point": 37.5,
-            "best_odds": 1.8,
-            "average_odds": 1.8,
-            "implied_probability_pct": 55.6,
+            "best_odds": 1.79,
+            "average_odds": 1.79,
+            "implied_probability_pct": 55.9,
             "num_bookmakers": 2
           },
           {
             "selection": "Under 37.5",
             "point": 37.5,
-            "best_odds": 1.95,
-            "average_odds": 1.95,
-            "implied_probability_pct": 51.3,
+            "best_odds": 1.97,
+            "average_odds": 1.97,
+            "implied_probability_pct": 50.8,
             "num_bookmakers": 2
           }
         ],
@@ -71,17 +71,17 @@
           {
             "selection": "Alexander Zverev 3.5",
             "point": 3.5,
-            "best_odds": 2.7,
-            "average_odds": 2.7,
-            "implied_probability_pct": 37.0,
+            "best_odds": 2.65,
+            "average_odds": 2.65,
+            "implied_probability_pct": 37.7,
             "num_bookmakers": 2
           },
           {
             "selection": "Jannik Sinner -3.5",
             "point": -3.5,
-            "best_odds": 1.43,
-            "average_odds": 1.43,
-            "implied_probability_pct": 69.9,
+            "best_odds": 1.44,
+            "average_odds": 1.44,
+            "implied_probability_pct": 69.4,
             "num_bookmakers": 2
           },
           {
@@ -95,9 +95,9 @@
           {
             "selection": "Jannik Sinner -5.5",
             "point": -5.5,
-            "best_odds": 2.02,
-            "average_odds": 2.02,
-            "implied_probability_pct": 49.5,
+            "best_odds": 2.0,
+            "average_odds": 2.0,
+            "implied_probability_pct": 50.0,
             "num_bookmakers": 1
           },
           {
@@ -111,9 +111,9 @@
           {
             "selection": "Jannik Sinner -5.0",
             "point": -5.0,
-            "best_odds": 1.93,
-            "average_odds": 1.93,
-            "implied_probability_pct": 51.8,
+            "best_odds": 1.95,
+            "average_odds": 1.95,
+            "implied_probability_pct": 51.3,
             "num_bookmakers": 1
           }
         ]
@@ -145,7 +145,7 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 7.8,
-            "average_odds": 7.07,
+            "average_odds": 7.06,
             "implied_probability_pct": 14.2,
             "num_bookmakers": 18
           },
@@ -380,7 +380,7 @@
         "point": null,
         "best_odds": 3.25,
         "average_odds": 3.08,
-        "implied_probability_pct": 32.4,
+        "implied_probability_pct": 32.5,
         "num_bookmakers": 18
       },
       "markets": {
@@ -390,7 +390,7 @@
             "point": null,
             "best_odds": 3.25,
             "average_odds": 3.08,
-            "implied_probability_pct": 32.4,
+            "implied_probability_pct": 32.5,
             "num_bookmakers": 18
           },
           {
@@ -732,7 +732,7 @@
             "selection": "Fulham",
             "point": null,
             "best_odds": 3.25,
-            "average_odds": 3.07,
+            "average_odds": 3.08,
             "implied_probability_pct": 32.5,
             "num_bookmakers": 17
           }
