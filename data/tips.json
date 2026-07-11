@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-10T21:39:23.447970+00:00",
+  "generated_at": "2026-07-11T07:23:52.538034+00:00",
   "tip_count": 11,
   "tips": [
     {
       "sport": "Tennis (ATP Wimbledon)",
       "match": "Jannik Sinner vs Alexander Zverev",
-      "commence_time": "2026-07-12T11:00:00Z",
+      "commence_time": "2026-07-12T09:00:00Z",
       "top_tip": {
         "selection": "Alexander Zverev",
         "point": null,
-        "best_odds": 4.9,
-        "average_odds": 4.44,
-        "implied_probability_pct": 22.5,
+        "best_odds": 5.1,
+        "average_odds": 4.59,
+        "implied_probability_pct": 21.8,
         "num_bookmakers": 20
       },
       "markets": {
@@ -19,85 +19,101 @@
           {
             "selection": "Alexander Zverev",
             "point": null,
-            "best_odds": 4.9,
-            "average_odds": 4.44,
-            "implied_probability_pct": 22.5,
+            "best_odds": 5.1,
+            "average_odds": 4.59,
+            "implied_probability_pct": 21.8,
             "num_bookmakers": 20
           },
           {
             "selection": "Jannik Sinner",
             "point": null,
-            "best_odds": 1.25,
+            "best_odds": 1.23,
             "average_odds": 1.2,
-            "implied_probability_pct": 83.0,
+            "implied_probability_pct": 83.3,
             "num_bookmakers": 20
           }
         ],
         "totals": [
           {
+            "selection": "Under 38.5",
+            "point": 38.5,
+            "best_odds": 1.94,
+            "average_odds": 1.9,
+            "implied_probability_pct": 52.8,
+            "num_bookmakers": 2
+          },
+          {
+            "selection": "Over 38.5",
+            "point": 38.5,
+            "best_odds": 1.91,
+            "average_odds": 1.88,
+            "implied_probability_pct": 53.2,
+            "num_bookmakers": 2
+          },
+          {
             "selection": "Over 37.5",
             "point": 37.5,
-            "best_odds": 1.78,
-            "average_odds": 1.78,
-            "implied_probability_pct": 56.2,
+            "best_odds": 1.8,
+            "average_odds": 1.8,
+            "implied_probability_pct": 55.6,
             "num_bookmakers": 2
           },
           {
             "selection": "Under 37.5",
             "point": 37.5,
-            "best_odds": 1.97,
-            "average_odds": 1.97,
-            "implied_probability_pct": 50.8,
+            "best_odds": 1.95,
+            "average_odds": 1.95,
+            "implied_probability_pct": 51.3,
             "num_bookmakers": 2
-          },
-          {
-            "selection": "Over 39.5",
-            "point": 39.5,
-            "best_odds": 1.88,
-            "average_odds": 1.88,
-            "implied_probability_pct": 53.2,
-            "num_bookmakers": 1
-          },
-          {
-            "selection": "Under 39.5",
-            "point": 39.5,
-            "best_odds": 1.8,
-            "average_odds": 1.8,
-            "implied_probability_pct": 55.6,
-            "num_bookmakers": 1
           }
         ],
         "spreads": [
           {
             "selection": "Alexander Zverev 3.5",
             "point": 3.5,
-            "best_odds": 2.63,
-            "average_odds": 2.63,
-            "implied_probability_pct": 38.0,
+            "best_odds": 2.7,
+            "average_odds": 2.7,
+            "implied_probability_pct": 37.0,
             "num_bookmakers": 2
           },
           {
             "selection": "Jannik Sinner -3.5",
             "point": -3.5,
-            "best_odds": 1.45,
-            "average_odds": 1.45,
-            "implied_probability_pct": 69.0,
+            "best_odds": 1.43,
+            "average_odds": 1.43,
+            "implied_probability_pct": 69.9,
             "num_bookmakers": 2
           },
           {
             "selection": "Alexander Zverev 5.5",
             "point": 5.5,
-            "best_odds": 1.65,
-            "average_odds": 1.65,
-            "implied_probability_pct": 60.6,
+            "best_odds": 1.67,
+            "average_odds": 1.67,
+            "implied_probability_pct": 59.9,
             "num_bookmakers": 1
           },
           {
             "selection": "Jannik Sinner -5.5",
             "point": -5.5,
-            "best_odds": 2.05,
-            "average_odds": 2.05,
-            "implied_probability_pct": 48.8,
+            "best_odds": 2.02,
+            "average_odds": 2.02,
+            "implied_probability_pct": 49.5,
+            "num_bookmakers": 1
+          },
+          {
+            "selection": "Alexander Zverev 5.0",
+            "point": 5.0,
+            "best_odds": 1.91,
+            "average_odds": 1.91,
+            "implied_probability_pct": 52.4,
+            "num_bookmakers": 1
+          },
+          {
+            "selection": "Jannik Sinner -5.0",
+            "point": -5.0,
+            "best_odds": 1.93,
+            "average_odds": 1.93,
+            "implied_probability_pct": 51.8,
             "num_bookmakers": 1
           }
         ]
@@ -129,7 +145,7 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 7.8,
-            "average_odds": 7.06,
+            "average_odds": 7.07,
             "implied_probability_pct": 14.2,
             "num_bookmakers": 18
           },
@@ -223,7 +239,7 @@
             "point": 2.5,
             "best_odds": 2.2,
             "average_odds": 2.15,
-            "implied_probability_pct": 46.5,
+            "implied_probability_pct": 46.6,
             "num_bookmakers": 4
           },
           {
@@ -540,7 +556,7 @@
         "selection": "Draw",
         "point": null,
         "best_odds": 5.5,
-        "average_odds": 4.97,
+        "average_odds": 4.98,
         "implied_probability_pct": 20.1,
         "num_bookmakers": 18
       },
@@ -550,7 +566,7 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 5.5,
-            "average_odds": 4.97,
+            "average_odds": 4.98,
             "implied_probability_pct": 20.1,
             "num_bookmakers": 18
           },
