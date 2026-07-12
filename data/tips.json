@@ -1,120 +1,88 @@
 {
-  "generated_at": "2026-07-12T09:33:19.107984+00:00",
+  "generated_at": "2026-07-12T15:39:43.306468+00:00",
   "tip_count": 11,
   "tips": [
     {
       "sport": "Tennis (ATP Wimbledon)",
       "match": "Jannik Sinner vs Alexander Zverev",
-      "commence_time": "2026-07-12T15:00:00Z",
+      "commence_time": "2026-07-12T15:05:00Z",
       "top_tip": {
         "selection": "Alexander Zverev",
         "point": null,
-        "best_odds": 5.0,
-        "average_odds": 4.6,
-        "implied_probability_pct": 21.7,
-        "num_bookmakers": 21
+        "best_odds": 4.5,
+        "average_odds": 3.76,
+        "implied_probability_pct": 26.6,
+        "num_bookmakers": 20
       },
       "markets": {
         "h2h": [
           {
             "selection": "Alexander Zverev",
             "point": null,
-            "best_odds": 5.0,
-            "average_odds": 4.6,
-            "implied_probability_pct": 21.7,
-            "num_bookmakers": 21
+            "best_odds": 4.5,
+            "average_odds": 3.76,
+            "implied_probability_pct": 26.6,
+            "num_bookmakers": 20
           },
           {
             "selection": "Jannik Sinner",
             "point": null,
-            "best_odds": 1.24,
-            "average_odds": 1.21,
-            "implied_probability_pct": 82.9,
-            "num_bookmakers": 21
+            "best_odds": 1.36,
+            "average_odds": 1.27,
+            "implied_probability_pct": 78.6,
+            "num_bookmakers": 20
           }
         ],
         "totals": [
           {
-            "selection": "Under 38.5",
-            "point": 38.5,
-            "best_odds": 1.96,
-            "average_odds": 1.92,
-            "implied_probability_pct": 52.1,
-            "num_bookmakers": 2
+            "selection": "Over 40.5",
+            "point": 40.5,
+            "best_odds": 1.75,
+            "average_odds": 1.71,
+            "implied_probability_pct": 58.4,
+            "num_bookmakers": 3
           },
           {
-            "selection": "Over 38.5",
-            "point": 38.5,
-            "best_odds": 1.92,
-            "average_odds": 1.89,
-            "implied_probability_pct": 53.1,
-            "num_bookmakers": 2
-          },
-          {
-            "selection": "Over 37.5",
-            "point": 37.5,
-            "best_odds": 1.76,
-            "average_odds": 1.76,
-            "implied_probability_pct": 56.8,
-            "num_bookmakers": 2
-          },
-          {
-            "selection": "Under 37.5",
-            "point": 37.5,
-            "best_odds": 2.02,
-            "average_odds": 2.02,
-            "implied_probability_pct": 49.5,
-            "num_bookmakers": 2
+            "selection": "Under 40.5",
+            "point": 40.5,
+            "best_odds": 2.08,
+            "average_odds": 2.04,
+            "implied_probability_pct": 49.0,
+            "num_bookmakers": 3
           }
         ],
         "spreads": [
           {
+            "selection": "Alexander Zverev 2.5",
+            "point": 2.5,
+            "best_odds": 2.7,
+            "average_odds": 2.67,
+            "implied_probability_pct": 37.5,
+            "num_bookmakers": 2
+          },
+          {
             "selection": "Alexander Zverev 4.5",
             "point": 4.5,
-            "best_odds": 2.18,
-            "average_odds": 2.18,
-            "implied_probability_pct": 45.9,
+            "best_odds": 1.83,
+            "average_odds": 1.82,
+            "implied_probability_pct": 54.9,
+            "num_bookmakers": 2
+          },
+          {
+            "selection": "Jannik Sinner -2.5",
+            "point": -2.5,
+            "best_odds": 1.43,
+            "average_odds": 1.43,
+            "implied_probability_pct": 69.9,
             "num_bookmakers": 2
           },
           {
             "selection": "Jannik Sinner -4.5",
             "point": -4.5,
-            "best_odds": 1.65,
-            "average_odds": 1.65,
-            "implied_probability_pct": 60.6,
+            "best_odds": 1.88,
+            "average_odds": 1.88,
+            "implied_probability_pct": 53.2,
             "num_bookmakers": 2
-          },
-          {
-            "selection": "Alexander Zverev 5.5",
-            "point": 5.5,
-            "best_odds": 1.7,
-            "average_odds": 1.7,
-            "implied_probability_pct": 58.8,
-            "num_bookmakers": 1
-          },
-          {
-            "selection": "Jannik Sinner -5.5",
-            "point": -5.5,
-            "best_odds": 2.05,
-            "average_odds": 2.05,
-            "implied_probability_pct": 48.8,
-            "num_bookmakers": 1
-          },
-          {
-            "selection": "Alexander Zverev 5.0",
-            "point": 5.0,
-            "best_odds": 1.95,
-            "average_odds": 1.95,
-            "implied_probability_pct": 51.3,
-            "num_bookmakers": 1
-          },
-          {
-            "selection": "Jannik Sinner -5.0",
-            "point": -5.0,
-            "best_odds": 1.92,
-            "average_odds": 1.92,
-            "implied_probability_pct": 52.1,
-            "num_bookmakers": 1
           }
         ]
       }
@@ -220,16 +188,16 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 4.6,
-            "average_odds": 4.45,
+            "average_odds": 4.44,
             "implied_probability_pct": 22.5,
             "num_bookmakers": 19
           },
           {
             "selection": "Manchester United",
             "point": null,
-            "best_odds": 1.47,
+            "best_odds": 1.48,
             "average_odds": 1.43,
-            "implied_probability_pct": 70.0,
+            "implied_probability_pct": 69.9,
             "num_bookmakers": 19
           }
         ],
@@ -435,15 +403,23 @@
       "match": "Brentford vs Tottenham Hotspur",
       "commence_time": "2026-08-22T16:30:00Z",
       "top_tip": {
-        "selection": "Draw",
+        "selection": "Tottenham Hotspur",
         "point": null,
-        "best_odds": 3.8,
-        "average_odds": 3.6,
-        "implied_probability_pct": 27.8,
+        "best_odds": 2.96,
+        "average_odds": 2.72,
+        "implied_probability_pct": 36.7,
         "num_bookmakers": 19
       },
       "markets": {
         "h2h": [
+          {
+            "selection": "Tottenham Hotspur",
+            "point": null,
+            "best_odds": 2.96,
+            "average_odds": 2.72,
+            "implied_probability_pct": 36.7,
+            "num_bookmakers": 19
+          },
           {
             "selection": "Draw",
             "point": null,
@@ -453,19 +429,11 @@
             "num_bookmakers": 19
           },
           {
-            "selection": "Tottenham Hotspur",
-            "point": null,
-            "best_odds": 2.82,
-            "average_odds": 2.66,
-            "implied_probability_pct": 37.6,
-            "num_bookmakers": 19
-          },
-          {
             "selection": "Brentford",
             "point": null,
             "best_odds": 2.5,
-            "average_odds": 2.38,
-            "implied_probability_pct": 42.0,
+            "average_odds": 2.33,
+            "implied_probability_pct": 42.9,
             "num_bookmakers": 19
           }
         ],
@@ -474,8 +442,8 @@
             "selection": "Under 2.5",
             "point": 2.5,
             "best_odds": 2.38,
-            "average_odds": 2.34,
-            "implied_probability_pct": 42.6,
+            "average_odds": 2.33,
+            "implied_probability_pct": 42.9,
             "num_bookmakers": 4
           },
           {
