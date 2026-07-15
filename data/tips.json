@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T15:08:49.267954+00:00",
+  "generated_at": "2026-07-15T21:32:22.829610+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -84,8 +84,8 @@
       "top_tip": {
         "selection": "Hull City",
         "point": null,
-        "best_odds": 8.0,
-        "average_odds": 6.55,
+        "best_odds": 7.6,
+        "average_odds": 6.53,
         "implied_probability_pct": 15.3,
         "num_bookmakers": 19
       },
@@ -94,8 +94,8 @@
           {
             "selection": "Hull City",
             "point": null,
-            "best_odds": 8.0,
-            "average_odds": 6.55,
+            "best_odds": 7.6,
+            "average_odds": 6.53,
             "implied_probability_pct": 15.3,
             "num_bookmakers": 19
           },
@@ -103,8 +103,8 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 4.6,
-            "average_odds": 4.45,
-            "implied_probability_pct": 22.5,
+            "average_odds": 4.46,
+            "implied_probability_pct": 22.4,
             "num_bookmakers": 19
           },
           {
@@ -169,9 +169,9 @@
           {
             "selection": "Everton",
             "point": null,
-            "best_odds": 2.18,
+            "best_odds": 2.16,
             "average_odds": 2.06,
-            "implied_probability_pct": 48.5,
+            "implied_probability_pct": 48.6,
             "num_bookmakers": 19
           }
         ],
@@ -539,7 +539,7 @@
           {
             "selection": "Liverpool",
             "point": null,
-            "best_odds": 2.26,
+            "best_odds": 2.25,
             "average_odds": 2.21,
             "implied_probability_pct": 45.3,
             "num_bookmakers": 19
