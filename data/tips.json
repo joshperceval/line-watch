@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T07:37:48.751663+00:00",
+  "generated_at": "2026-07-16T15:19:54.676607+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -9,8 +9,8 @@
       "top_tip": {
         "selection": "Coventry City",
         "point": null,
-        "best_odds": 21.0,
-        "average_odds": 15.16,
+        "best_odds": 20.0,
+        "average_odds": 15.11,
         "implied_probability_pct": 6.6,
         "num_bookmakers": 19
       },
@@ -19,16 +19,16 @@
           {
             "selection": "Coventry City",
             "point": null,
-            "best_odds": 21.0,
-            "average_odds": 15.16,
+            "best_odds": 20.0,
+            "average_odds": 15.11,
             "implied_probability_pct": 6.6,
             "num_bookmakers": 19
           },
           {
             "selection": "Draw",
             "point": null,
-            "best_odds": 8.2,
-            "average_odds": 7.13,
+            "best_odds": 8.4,
+            "average_odds": 7.14,
             "implied_probability_pct": 14.0,
             "num_bookmakers": 19
           },
@@ -238,9 +238,9 @@
           {
             "selection": "Over 2.5",
             "point": 2.5,
-            "best_odds": 1.88,
-            "average_odds": 1.82,
-            "implied_probability_pct": 54.9,
+            "best_odds": 1.85,
+            "average_odds": 1.81,
+            "implied_probability_pct": 55.2,
             "num_bookmakers": 4
           },
           {
@@ -305,9 +305,9 @@
           {
             "selection": "Over 2.5",
             "point": 2.5,
-            "best_odds": 1.83,
-            "average_odds": 1.77,
-            "implied_probability_pct": 56.6,
+            "best_odds": 1.8,
+            "average_odds": 1.76,
+            "implied_probability_pct": 56.8,
             "num_bookmakers": 4
           }
         ]
@@ -539,7 +539,7 @@
           {
             "selection": "Liverpool",
             "point": null,
-            "best_odds": 2.25,
+            "best_odds": 2.26,
             "average_odds": 2.21,
             "implied_probability_pct": 45.3,
             "num_bookmakers": 19
@@ -547,19 +547,19 @@
         ],
         "totals": [
           {
-            "selection": "Over 3.5",
-            "point": 3.5,
-            "best_odds": 2.08,
-            "average_odds": 2.04,
-            "implied_probability_pct": 49.0,
-            "num_bookmakers": 3
-          },
-          {
             "selection": "Under 3.5",
             "point": 3.5,
             "best_odds": 1.75,
             "average_odds": 1.72,
             "implied_probability_pct": 58.3,
+            "num_bookmakers": 3
+          },
+          {
+            "selection": "Over 3.5",
+            "point": 3.5,
+            "best_odds": 2.05,
+            "average_odds": 2.03,
+            "implied_probability_pct": 49.3,
             "num_bookmakers": 3
           },
           {
