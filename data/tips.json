@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T12:06:42.158420+00:00",
+  "generated_at": "2026-07-19T18:10:57.799609+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -85,8 +85,8 @@
         "selection": "Hull City",
         "point": null,
         "best_odds": 7.6,
-        "average_odds": 6.49,
-        "implied_probability_pct": 15.4,
+        "average_odds": 6.56,
+        "implied_probability_pct": 15.2,
         "num_bookmakers": 20
       },
       "markets": {
@@ -95,16 +95,16 @@
             "selection": "Hull City",
             "point": null,
             "best_odds": 7.6,
-            "average_odds": 6.49,
-            "implied_probability_pct": 15.4,
+            "average_odds": 6.56,
+            "implied_probability_pct": 15.2,
             "num_bookmakers": 20
           },
           {
             "selection": "Draw",
             "point": null,
             "best_odds": 4.7,
-            "average_odds": 4.44,
-            "implied_probability_pct": 22.5,
+            "average_odds": 4.46,
+            "implied_probability_pct": 22.4,
             "num_bookmakers": 20
           },
           {
@@ -112,7 +112,7 @@
             "point": null,
             "best_odds": 1.48,
             "average_odds": 1.43,
-            "implied_probability_pct": 69.9,
+            "implied_probability_pct": 70.2,
             "num_bookmakers": 20
           }
         ],
@@ -262,7 +262,7 @@
         "selection": "Leeds United",
         "point": null,
         "best_odds": 3.3,
-        "average_odds": 3.08,
+        "average_odds": 3.09,
         "implied_probability_pct": 32.4,
         "num_bookmakers": 20
       },
@@ -272,16 +272,16 @@
             "selection": "Leeds United",
             "point": null,
             "best_odds": 3.3,
-            "average_odds": 3.08,
+            "average_odds": 3.09,
             "implied_probability_pct": 32.4,
             "num_bookmakers": 20
           },
           {
             "selection": "Draw",
             "point": null,
-            "best_odds": 3.6,
-            "average_odds": 3.4,
-            "implied_probability_pct": 29.4,
+            "best_odds": 3.55,
+            "average_odds": 3.39,
+            "implied_probability_pct": 29.5,
             "num_bookmakers": 20
           },
           {
@@ -321,7 +321,7 @@
         "selection": "Draw",
         "point": null,
         "best_odds": 3.85,
-        "average_odds": 3.64,
+        "average_odds": 3.63,
         "implied_probability_pct": 27.5,
         "num_bookmakers": 20
       },
@@ -331,24 +331,24 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 3.85,
-            "average_odds": 3.64,
+            "average_odds": 3.63,
             "implied_probability_pct": 27.5,
-            "num_bookmakers": 20
-          },
-          {
-            "selection": "Tottenham Hotspur",
-            "point": null,
-            "best_odds": 3.0,
-            "average_odds": 2.84,
-            "implied_probability_pct": 35.2,
             "num_bookmakers": 20
           },
           {
             "selection": "Brentford",
             "point": null,
             "best_odds": 2.38,
-            "average_odds": 2.23,
-            "implied_probability_pct": 44.9,
+            "average_odds": 2.24,
+            "implied_probability_pct": 44.6,
+            "num_bookmakers": 20
+          },
+          {
+            "selection": "Tottenham Hotspur",
+            "point": null,
+            "best_odds": 2.92,
+            "average_odds": 2.82,
+            "implied_probability_pct": 35.4,
             "num_bookmakers": 20
           }
         ],
@@ -616,7 +616,7 @@
             "point": null,
             "best_odds": 2.3,
             "average_odds": 2.12,
-            "implied_probability_pct": 47.2,
+            "implied_probability_pct": 47.3,
             "num_bookmakers": 19
           }
         ],
