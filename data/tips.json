@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T23:38:09.383067+00:00",
+  "generated_at": "2026-07-19T07:52:05.364922+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -336,19 +336,19 @@
             "num_bookmakers": 20
           },
           {
+            "selection": "Tottenham Hotspur",
+            "point": null,
+            "best_odds": 3.0,
+            "average_odds": 2.84,
+            "implied_probability_pct": 35.2,
+            "num_bookmakers": 20
+          },
+          {
             "selection": "Brentford",
             "point": null,
             "best_odds": 2.38,
             "average_odds": 2.23,
             "implied_probability_pct": 44.9,
-            "num_bookmakers": 20
-          },
-          {
-            "selection": "Tottenham Hotspur",
-            "point": null,
-            "best_odds": 3.0,
-            "average_odds": 2.85,
-            "implied_probability_pct": 35.1,
             "num_bookmakers": 20
           }
         ],
@@ -439,7 +439,7 @@
         "selection": "Draw",
         "point": null,
         "best_odds": 5.5,
-        "average_odds": 4.96,
+        "average_odds": 4.95,
         "implied_probability_pct": 20.2,
         "num_bookmakers": 20
       },
@@ -449,7 +449,7 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 5.5,
-            "average_odds": 4.96,
+            "average_odds": 4.95,
             "implied_probability_pct": 20.2,
             "num_bookmakers": 20
           },
@@ -457,8 +457,8 @@
             "selection": "Bournemouth",
             "point": null,
             "best_odds": 6.5,
-            "average_odds": 6.17,
-            "implied_probability_pct": 16.2,
+            "average_odds": 6.12,
+            "implied_probability_pct": 16.4,
             "num_bookmakers": 20
           },
           {
@@ -466,7 +466,7 @@
             "point": null,
             "best_odds": 1.46,
             "average_odds": 1.41,
-            "implied_probability_pct": 71.1,
+            "implied_probability_pct": 70.9,
             "num_bookmakers": 20
           }
         ],
