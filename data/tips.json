@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T15:59:58.381045+00:00",
+  "generated_at": "2026-07-20T21:51:35.688400+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -10,7 +10,7 @@
         "selection": "Coventry City",
         "point": null,
         "best_odds": 19.0,
-        "average_odds": 14.95,
+        "average_odds": 14.85,
         "implied_probability_pct": 6.7,
         "num_bookmakers": 20
       },
@@ -20,24 +20,24 @@
             "selection": "Coventry City",
             "point": null,
             "best_odds": 19.0,
-            "average_odds": 14.95,
+            "average_odds": 14.85,
             "implied_probability_pct": 6.7,
             "num_bookmakers": 20
           },
           {
             "selection": "Draw",
             "point": null,
-            "best_odds": 8.2,
-            "average_odds": 7.18,
-            "implied_probability_pct": 13.9,
+            "best_odds": 8.6,
+            "average_odds": 7.28,
+            "implied_probability_pct": 13.7,
             "num_bookmakers": 20
           },
           {
             "selection": "Arsenal",
             "point": null,
             "best_odds": 1.2,
-            "average_odds": 1.15,
-            "implied_probability_pct": 86.6,
+            "average_odds": 1.16,
+            "implied_probability_pct": 86.5,
             "num_bookmakers": 20
           }
         ],
@@ -141,23 +141,15 @@
       "match": "Everton vs Crystal Palace",
       "commence_time": "2026-08-22T14:00:00Z",
       "top_tip": {
-        "selection": "Everton",
+        "selection": "Crystal Palace",
         "point": null,
-        "best_odds": 2.4,
-        "average_odds": 2.08,
-        "implied_probability_pct": 48.1,
+        "best_odds": 3.5,
+        "average_odds": 3.31,
+        "implied_probability_pct": 30.2,
         "num_bookmakers": 20
       },
       "markets": {
         "h2h": [
-          {
-            "selection": "Everton",
-            "point": null,
-            "best_odds": 2.4,
-            "average_odds": 2.08,
-            "implied_probability_pct": 48.1,
-            "num_bookmakers": 20
-          },
           {
             "selection": "Crystal Palace",
             "point": null,
@@ -172,6 +164,14 @@
             "best_odds": 3.6,
             "average_odds": 3.44,
             "implied_probability_pct": 29.1,
+            "num_bookmakers": 20
+          },
+          {
+            "selection": "Everton",
+            "point": null,
+            "best_odds": 2.18,
+            "average_odds": 2.06,
+            "implied_probability_pct": 48.4,
             "num_bookmakers": 20
           }
         ],
@@ -204,8 +204,8 @@
         "point": null,
         "best_odds": 3.5,
         "average_odds": 3.34,
-        "implied_probability_pct": 29.9,
-        "num_bookmakers": 19
+        "implied_probability_pct": 30.0,
+        "num_bookmakers": 20
       },
       "markets": {
         "h2h": [
@@ -214,8 +214,8 @@
             "point": null,
             "best_odds": 3.5,
             "average_odds": 3.34,
-            "implied_probability_pct": 29.9,
-            "num_bookmakers": 19
+            "implied_probability_pct": 30.0,
+            "num_bookmakers": 20
           },
           {
             "selection": "Ipswich Town",
@@ -223,15 +223,15 @@
             "best_odds": 2.78,
             "average_odds": 2.63,
             "implied_probability_pct": 38.1,
-            "num_bookmakers": 19
+            "num_bookmakers": 20
           },
           {
             "selection": "Sunderland",
             "point": null,
             "best_odds": 2.62,
-            "average_odds": 2.53,
+            "average_odds": 2.52,
             "implied_probability_pct": 39.6,
-            "num_bookmakers": 19
+            "num_bookmakers": 20
           }
         ],
         "totals": [
@@ -287,7 +287,7 @@
           {
             "selection": "Nottingham Forest",
             "point": null,
-            "best_odds": 2.26,
+            "best_odds": 2.25,
             "average_odds": 2.19,
             "implied_probability_pct": 45.7,
             "num_bookmakers": 20
@@ -436,23 +436,15 @@
       "match": "Manchester City vs Bournemouth",
       "commence_time": "2026-08-23T13:00:00Z",
       "top_tip": {
-        "selection": "Draw",
+        "selection": "Bournemouth",
         "point": null,
-        "best_odds": 5.5,
-        "average_odds": 4.95,
-        "implied_probability_pct": 20.2,
+        "best_odds": 6.5,
+        "average_odds": 6.12,
+        "implied_probability_pct": 16.4,
         "num_bookmakers": 20
       },
       "markets": {
         "h2h": [
-          {
-            "selection": "Draw",
-            "point": null,
-            "best_odds": 5.5,
-            "average_odds": 4.95,
-            "implied_probability_pct": 20.2,
-            "num_bookmakers": 20
-          },
           {
             "selection": "Bournemouth",
             "point": null,
@@ -462,11 +454,19 @@
             "num_bookmakers": 20
           },
           {
+            "selection": "Draw",
+            "point": null,
+            "best_odds": 5.2,
+            "average_odds": 4.92,
+            "implied_probability_pct": 20.3,
+            "num_bookmakers": 20
+          },
+          {
             "selection": "Manchester City",
             "point": null,
             "best_odds": 1.46,
             "average_odds": 1.41,
-            "implied_probability_pct": 70.9,
+            "implied_probability_pct": 70.8,
             "num_bookmakers": 20
           }
         ],
