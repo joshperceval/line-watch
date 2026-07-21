@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T21:51:35.688400+00:00",
+  "generated_at": "2026-07-21T09:33:34.092279+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -10,7 +10,7 @@
         "selection": "Coventry City",
         "point": null,
         "best_odds": 19.0,
-        "average_odds": 14.85,
+        "average_odds": 14.82,
         "implied_probability_pct": 6.7,
         "num_bookmakers": 20
       },
@@ -20,16 +20,16 @@
             "selection": "Coventry City",
             "point": null,
             "best_odds": 19.0,
-            "average_odds": 14.85,
+            "average_odds": 14.82,
             "implied_probability_pct": 6.7,
             "num_bookmakers": 20
           },
           {
             "selection": "Draw",
             "point": null,
-            "best_odds": 8.6,
-            "average_odds": 7.28,
-            "implied_probability_pct": 13.7,
+            "best_odds": 8.0,
+            "average_odds": 7.25,
+            "implied_probability_pct": 13.8,
             "num_bookmakers": 20
           },
           {
@@ -159,19 +159,19 @@
             "num_bookmakers": 20
           },
           {
+            "selection": "Everton",
+            "point": null,
+            "best_odds": 2.24,
+            "average_odds": 2.07,
+            "implied_probability_pct": 48.4,
+            "num_bookmakers": 20
+          },
+          {
             "selection": "Draw",
             "point": null,
             "best_odds": 3.6,
             "average_odds": 3.44,
             "implied_probability_pct": 29.1,
-            "num_bookmakers": 20
-          },
-          {
-            "selection": "Everton",
-            "point": null,
-            "best_odds": 2.18,
-            "average_odds": 2.06,
-            "implied_probability_pct": 48.4,
             "num_bookmakers": 20
           }
         ],
@@ -200,29 +200,29 @@
       "match": "Ipswich Town vs Sunderland",
       "commence_time": "2026-08-22T14:00:00Z",
       "top_tip": {
-        "selection": "Draw",
+        "selection": "Ipswich Town",
         "point": null,
-        "best_odds": 3.5,
-        "average_odds": 3.34,
-        "implied_probability_pct": 30.0,
+        "best_odds": 2.8,
+        "average_odds": 2.63,
+        "implied_probability_pct": 38.1,
         "num_bookmakers": 20
       },
       "markets": {
         "h2h": [
+          {
+            "selection": "Ipswich Town",
+            "point": null,
+            "best_odds": 2.8,
+            "average_odds": 2.63,
+            "implied_probability_pct": 38.1,
+            "num_bookmakers": 20
+          },
           {
             "selection": "Draw",
             "point": null,
             "best_odds": 3.5,
             "average_odds": 3.34,
             "implied_probability_pct": 30.0,
-            "num_bookmakers": 20
-          },
-          {
-            "selection": "Ipswich Town",
-            "point": null,
-            "best_odds": 2.78,
-            "average_odds": 2.63,
-            "implied_probability_pct": 38.1,
             "num_bookmakers": 20
           },
           {
@@ -318,37 +318,37 @@
       "match": "Brentford vs Tottenham Hotspur",
       "commence_time": "2026-08-22T16:30:00Z",
       "top_tip": {
-        "selection": "Draw",
+        "selection": "Brentford",
         "point": null,
-        "best_odds": 3.85,
-        "average_odds": 3.63,
-        "implied_probability_pct": 27.5,
+        "best_odds": 2.42,
+        "average_odds": 2.25,
+        "implied_probability_pct": 44.5,
         "num_bookmakers": 20
       },
       "markets": {
         "h2h": [
           {
-            "selection": "Draw",
-            "point": null,
-            "best_odds": 3.85,
-            "average_odds": 3.63,
-            "implied_probability_pct": 27.5,
-            "num_bookmakers": 20
-          },
-          {
             "selection": "Brentford",
             "point": null,
-            "best_odds": 2.38,
+            "best_odds": 2.42,
             "average_odds": 2.25,
             "implied_probability_pct": 44.5,
             "num_bookmakers": 20
           },
           {
+            "selection": "Draw",
+            "point": null,
+            "best_odds": 3.8,
+            "average_odds": 3.63,
+            "implied_probability_pct": 27.6,
+            "num_bookmakers": 20
+          },
+          {
             "selection": "Tottenham Hotspur",
             "point": null,
-            "best_odds": 2.92,
+            "best_odds": 2.96,
             "average_odds": 2.82,
-            "implied_probability_pct": 35.5,
+            "implied_probability_pct": 35.4,
             "num_bookmakers": 20
           }
         ],
@@ -436,15 +436,23 @@
       "match": "Manchester City vs Bournemouth",
       "commence_time": "2026-08-23T13:00:00Z",
       "top_tip": {
-        "selection": "Bournemouth",
+        "selection": "Draw",
         "point": null,
-        "best_odds": 6.5,
-        "average_odds": 6.12,
-        "implied_probability_pct": 16.4,
+        "best_odds": 5.5,
+        "average_odds": 4.95,
+        "implied_probability_pct": 20.2,
         "num_bookmakers": 20
       },
       "markets": {
         "h2h": [
+          {
+            "selection": "Draw",
+            "point": null,
+            "best_odds": 5.5,
+            "average_odds": 4.95,
+            "implied_probability_pct": 20.2,
+            "num_bookmakers": 20
+          },
           {
             "selection": "Bournemouth",
             "point": null,
@@ -454,19 +462,11 @@
             "num_bookmakers": 20
           },
           {
-            "selection": "Draw",
-            "point": null,
-            "best_odds": 5.2,
-            "average_odds": 4.92,
-            "implied_probability_pct": 20.3,
-            "num_bookmakers": 20
-          },
-          {
             "selection": "Manchester City",
             "point": null,
             "best_odds": 1.46,
             "average_odds": 1.41,
-            "implied_probability_pct": 70.8,
+            "implied_probability_pct": 70.9,
             "num_bookmakers": 20
           }
         ],
