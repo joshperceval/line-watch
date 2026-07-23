@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T17:03:40.621443+00:00",
+  "generated_at": "2026-07-23T21:39:38.398650+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -10,7 +10,7 @@
         "selection": "Coventry City",
         "point": null,
         "best_odds": 18.0,
-        "average_odds": 14.45,
+        "average_odds": 14.43,
         "implied_probability_pct": 6.9,
         "num_bookmakers": 20
       },
@@ -20,7 +20,7 @@
             "selection": "Coventry City",
             "point": null,
             "best_odds": 18.0,
-            "average_odds": 14.45,
+            "average_odds": 14.43,
             "implied_probability_pct": 6.9,
             "num_bookmakers": 20
           },
@@ -28,7 +28,7 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 8.2,
-            "average_odds": 7.25,
+            "average_odds": 7.26,
             "implied_probability_pct": 13.8,
             "num_bookmakers": 20
           },
@@ -143,9 +143,9 @@
       "top_tip": {
         "selection": "Crystal Palace",
         "point": null,
-        "best_odds": 3.55,
+        "best_odds": 3.5,
         "average_odds": 3.33,
-        "implied_probability_pct": 30.0,
+        "implied_probability_pct": 30.1,
         "num_bookmakers": 20
       },
       "markets": {
@@ -153,23 +153,23 @@
           {
             "selection": "Crystal Palace",
             "point": null,
-            "best_odds": 3.55,
+            "best_odds": 3.5,
             "average_odds": 3.33,
-            "implied_probability_pct": 30.0,
+            "implied_probability_pct": 30.1,
             "num_bookmakers": 20
           },
           {
             "selection": "Draw",
             "point": null,
             "best_odds": 3.6,
-            "average_odds": 3.42,
-            "implied_probability_pct": 29.2,
+            "average_odds": 3.44,
+            "implied_probability_pct": 29.1,
             "num_bookmakers": 20
           },
           {
             "selection": "Everton",
             "point": null,
-            "best_odds": 2.2,
+            "best_odds": 2.18,
             "average_odds": 2.07,
             "implied_probability_pct": 48.3,
             "num_bookmakers": 20
@@ -321,7 +321,7 @@
         "selection": "Draw",
         "point": null,
         "best_odds": 3.8,
-        "average_odds": 3.59,
+        "average_odds": 3.58,
         "implied_probability_pct": 27.9,
         "num_bookmakers": 20
       },
@@ -331,7 +331,7 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 3.8,
-            "average_odds": 3.59,
+            "average_odds": 3.58,
             "implied_probability_pct": 27.9,
             "num_bookmakers": 20
           },
@@ -348,7 +348,7 @@
             "point": null,
             "best_odds": 2.96,
             "average_odds": 2.8,
-            "implied_probability_pct": 35.7,
+            "implied_probability_pct": 35.8,
             "num_bookmakers": 20
           }
         ],
@@ -514,8 +514,8 @@
         "selection": "Newcastle United",
         "point": null,
         "best_odds": 3.1,
-        "average_odds": 2.76,
-        "implied_probability_pct": 36.2,
+        "average_odds": 2.77,
+        "implied_probability_pct": 36.1,
         "num_bookmakers": 20
       },
       "markets": {
@@ -524,16 +524,16 @@
             "selection": "Newcastle United",
             "point": null,
             "best_odds": 3.1,
-            "average_odds": 2.76,
-            "implied_probability_pct": 36.2,
+            "average_odds": 2.77,
+            "implied_probability_pct": 36.1,
             "num_bookmakers": 20
           },
           {
             "selection": "Draw",
             "point": null,
             "best_odds": 4.0,
-            "average_odds": 3.81,
-            "implied_probability_pct": 26.2,
+            "average_odds": 3.8,
+            "implied_probability_pct": 26.3,
             "num_bookmakers": 20
           },
           {
@@ -541,7 +541,7 @@
             "point": null,
             "best_odds": 2.25,
             "average_odds": 2.2,
-            "implied_probability_pct": 45.4,
+            "implied_probability_pct": 45.5,
             "num_bookmakers": 20
           }
         ],
