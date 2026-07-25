@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T07:34:39.179655+00:00",
+  "generated_at": "2026-07-25T12:11:19.635230+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -143,9 +143,9 @@
       "top_tip": {
         "selection": "Crystal Palace",
         "point": null,
-        "best_odds": 3.5,
-        "average_odds": 3.3,
-        "implied_probability_pct": 30.3,
+        "best_odds": 3.55,
+        "average_odds": 3.31,
+        "implied_probability_pct": 30.2,
         "num_bookmakers": 20
       },
       "markets": {
@@ -153,9 +153,9 @@
           {
             "selection": "Crystal Palace",
             "point": null,
-            "best_odds": 3.5,
-            "average_odds": 3.3,
-            "implied_probability_pct": 30.3,
+            "best_odds": 3.55,
+            "average_odds": 3.31,
+            "implied_probability_pct": 30.2,
             "num_bookmakers": 20
           },
           {
@@ -200,29 +200,29 @@
       "match": "Ipswich Town vs Sunderland",
       "commence_time": "2026-08-22T14:00:00Z",
       "top_tip": {
-        "selection": "Sunderland",
+        "selection": "Ipswich Town",
         "point": null,
-        "best_odds": 2.8,
-        "average_odds": 2.53,
-        "implied_probability_pct": 39.6,
+        "best_odds": 2.82,
+        "average_odds": 2.65,
+        "implied_probability_pct": 37.8,
         "num_bookmakers": 20
       },
       "markets": {
         "h2h": [
-          {
-            "selection": "Sunderland",
-            "point": null,
-            "best_odds": 2.8,
-            "average_odds": 2.53,
-            "implied_probability_pct": 39.6,
-            "num_bookmakers": 20
-          },
           {
             "selection": "Ipswich Town",
             "point": null,
             "best_odds": 2.82,
             "average_odds": 2.65,
             "implied_probability_pct": 37.8,
+            "num_bookmakers": 20
+          },
+          {
+            "selection": "Sunderland",
+            "point": null,
+            "best_odds": 2.64,
+            "average_odds": 2.52,
+            "implied_probability_pct": 39.7,
             "num_bookmakers": 20
           },
           {
@@ -339,8 +339,8 @@
             "selection": "Brentford",
             "point": null,
             "best_odds": 2.46,
-            "average_odds": 2.27,
-            "implied_probability_pct": 44.1,
+            "average_odds": 2.28,
+            "implied_probability_pct": 43.9,
             "num_bookmakers": 20
           },
           {
