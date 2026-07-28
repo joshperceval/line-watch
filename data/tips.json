@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T17:12:55.007958+00:00",
+  "generated_at": "2026-07-28T21:46:30.307672+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -10,8 +10,8 @@
         "selection": "Coventry City",
         "point": null,
         "best_odds": 19.5,
-        "average_odds": 15.5,
-        "implied_probability_pct": 6.5,
+        "average_odds": 15.7,
+        "implied_probability_pct": 6.4,
         "num_bookmakers": 20
       },
       "markets": {
@@ -20,8 +20,8 @@
             "selection": "Coventry City",
             "point": null,
             "best_odds": 19.5,
-            "average_odds": 15.5,
-            "implied_probability_pct": 6.5,
+            "average_odds": 15.7,
+            "implied_probability_pct": 6.4,
             "num_bookmakers": 20
           },
           {
@@ -37,7 +37,7 @@
             "point": null,
             "best_odds": 1.2,
             "average_odds": 1.16,
-            "implied_probability_pct": 85.9,
+            "implied_probability_pct": 86.2,
             "num_bookmakers": 20
           }
         ],
