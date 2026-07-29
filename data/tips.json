@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T21:46:30.307672+00:00",
+  "generated_at": "2026-07-29T10:14:14.489486+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -10,7 +10,7 @@
         "selection": "Coventry City",
         "point": null,
         "best_odds": 19.5,
-        "average_odds": 15.7,
+        "average_odds": 15.55,
         "implied_probability_pct": 6.4,
         "num_bookmakers": 20
       },
@@ -20,7 +20,7 @@
             "selection": "Coventry City",
             "point": null,
             "best_odds": 19.5,
-            "average_odds": 15.7,
+            "average_odds": 15.55,
             "implied_probability_pct": 6.4,
             "num_bookmakers": 20
           },
@@ -37,7 +37,7 @@
             "point": null,
             "best_odds": 1.2,
             "average_odds": 1.16,
-            "implied_probability_pct": 86.2,
+            "implied_probability_pct": 86.1,
             "num_bookmakers": 20
           }
         ],
@@ -68,8 +68,8 @@
       "top_tip": {
         "selection": "Hull City",
         "point": null,
-        "best_odds": 8.4,
-        "average_odds": 7.0,
+        "best_odds": 8.2,
+        "average_odds": 6.98,
         "implied_probability_pct": 14.3,
         "num_bookmakers": 20
       },
@@ -78,8 +78,8 @@
           {
             "selection": "Hull City",
             "point": null,
-            "best_odds": 8.4,
-            "average_odds": 7.0,
+            "best_odds": 8.2,
+            "average_odds": 6.98,
             "implied_probability_pct": 14.3,
             "num_bookmakers": 20
           },
@@ -87,7 +87,7 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 4.6,
-            "average_odds": 4.41,
+            "average_odds": 4.4,
             "implied_probability_pct": 22.7,
             "num_bookmakers": 20
           },
@@ -127,9 +127,9 @@
       "top_tip": {
         "selection": "Crystal Palace",
         "point": null,
-        "best_odds": 3.65,
-        "average_odds": 3.32,
-        "implied_probability_pct": 30.1,
+        "best_odds": 3.55,
+        "average_odds": 3.31,
+        "implied_probability_pct": 30.3,
         "num_bookmakers": 20
       },
       "markets": {
@@ -137,9 +137,9 @@
           {
             "selection": "Crystal Palace",
             "point": null,
-            "best_odds": 3.65,
-            "average_odds": 3.32,
-            "implied_probability_pct": 30.1,
+            "best_odds": 3.55,
+            "average_odds": 3.31,
+            "implied_probability_pct": 30.3,
             "num_bookmakers": 20
           },
           {
@@ -573,8 +573,8 @@
         "selection": "Fulham",
         "point": null,
         "best_odds": 3.35,
-        "average_odds": 3.06,
-        "implied_probability_pct": 32.7,
+        "average_odds": 3.05,
+        "implied_probability_pct": 32.8,
         "num_bookmakers": 19
       },
       "markets": {
@@ -583,8 +583,8 @@
             "selection": "Fulham",
             "point": null,
             "best_odds": 3.35,
-            "average_odds": 3.06,
-            "implied_probability_pct": 32.7,
+            "average_odds": 3.05,
+            "implied_probability_pct": 32.8,
             "num_bookmakers": 19
           },
           {
