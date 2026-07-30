@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T17:09:50.732974+00:00",
+  "generated_at": "2026-07-30T21:49:22.208717+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -322,9 +322,9 @@
           {
             "selection": "Brentford",
             "point": null,
-            "best_odds": 2.48,
+            "best_odds": 2.5,
             "average_odds": 2.34,
-            "implied_probability_pct": 42.8,
+            "implied_probability_pct": 42.7,
             "num_bookmakers": 20
           },
           {
@@ -497,9 +497,9 @@
       "top_tip": {
         "selection": "Newcastle United",
         "point": null,
-        "best_odds": 3.3,
-        "average_odds": 2.93,
-        "implied_probability_pct": 34.2,
+        "best_odds": 3.4,
+        "average_odds": 3.02,
+        "implied_probability_pct": 33.2,
         "num_bookmakers": 20
       },
       "markets": {
@@ -507,25 +507,25 @@
           {
             "selection": "Newcastle United",
             "point": null,
-            "best_odds": 3.3,
-            "average_odds": 2.93,
-            "implied_probability_pct": 34.2,
+            "best_odds": 3.4,
+            "average_odds": 3.02,
+            "implied_probability_pct": 33.2,
             "num_bookmakers": 20
           },
           {
             "selection": "Draw",
             "point": null,
             "best_odds": 4.0,
-            "average_odds": 3.77,
-            "implied_probability_pct": 26.5,
+            "average_odds": 3.75,
+            "implied_probability_pct": 26.6,
             "num_bookmakers": 20
           },
           {
             "selection": "Liverpool",
             "point": null,
             "best_odds": 2.2,
-            "average_odds": 2.15,
-            "implied_probability_pct": 46.5,
+            "average_odds": 2.12,
+            "implied_probability_pct": 47.1,
             "num_bookmakers": 20
           }
         ],
@@ -535,7 +535,7 @@
             "point": 3.5,
             "best_odds": 2.23,
             "average_odds": 2.19,
-            "implied_probability_pct": 45.7,
+            "implied_probability_pct": 45.6,
             "num_bookmakers": 3
           },
           {
@@ -570,29 +570,29 @@
       "match": "Fulham vs Chelsea",
       "commence_time": "2026-08-24T19:00:00Z",
       "top_tip": {
-        "selection": "Fulham",
+        "selection": "Draw",
         "point": null,
-        "best_odds": 3.3,
-        "average_odds": 3.05,
-        "implied_probability_pct": 32.8,
+        "best_odds": 3.9,
+        "average_odds": 3.62,
+        "implied_probability_pct": 27.7,
         "num_bookmakers": 19
       },
       "markets": {
         "h2h": [
+          {
+            "selection": "Draw",
+            "point": null,
+            "best_odds": 3.9,
+            "average_odds": 3.62,
+            "implied_probability_pct": 27.7,
+            "num_bookmakers": 19
+          },
           {
             "selection": "Fulham",
             "point": null,
             "best_odds": 3.3,
             "average_odds": 3.05,
             "implied_probability_pct": 32.8,
-            "num_bookmakers": 19
-          },
-          {
-            "selection": "Draw",
-            "point": null,
-            "best_odds": 3.85,
-            "average_odds": 3.61,
-            "implied_probability_pct": 27.7,
             "num_bookmakers": 19
           },
           {
