@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T17:12:03.365203+00:00",
+  "generated_at": "2026-07-31T21:47:18.589909+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -28,8 +28,8 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 8.6,
-            "average_odds": 7.12,
-            "implied_probability_pct": 14.1,
+            "average_odds": 7.14,
+            "implied_probability_pct": 14.0,
             "num_bookmakers": 20
           },
           {
@@ -37,7 +37,7 @@
             "point": null,
             "best_odds": 1.2,
             "average_odds": 1.16,
-            "implied_probability_pct": 85.9,
+            "implied_probability_pct": 86.2,
             "num_bookmakers": 20
           }
         ],
@@ -87,7 +87,7 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 4.6,
-            "average_odds": 4.4,
+            "average_odds": 4.41,
             "implied_probability_pct": 22.7,
             "num_bookmakers": 20
           },
@@ -330,9 +330,9 @@
           {
             "selection": "Tottenham Hotspur",
             "point": null,
-            "best_odds": 2.9,
-            "average_odds": 2.78,
-            "implied_probability_pct": 36.0,
+            "best_odds": 2.88,
+            "average_odds": 2.77,
+            "implied_probability_pct": 36.1,
             "num_bookmakers": 20
           }
         ],
@@ -381,17 +381,17 @@
           {
             "selection": "Aston Villa",
             "point": null,
-            "best_odds": 2.98,
+            "best_odds": 3.0,
             "average_odds": 2.84,
-            "implied_probability_pct": 35.2,
+            "implied_probability_pct": 35.1,
             "num_bookmakers": 20
           },
           {
             "selection": "Brighton and Hove Albion",
             "point": null,
-            "best_odds": 2.34,
-            "average_odds": 2.26,
-            "implied_probability_pct": 44.3,
+            "best_odds": 2.4,
+            "average_odds": 2.27,
+            "implied_probability_pct": 44.1,
             "num_bookmakers": 20
           }
         ],
@@ -524,8 +524,8 @@
             "selection": "Liverpool",
             "point": null,
             "best_odds": 2.2,
-            "average_odds": 2.14,
-            "implied_probability_pct": 46.7,
+            "average_odds": 2.15,
+            "implied_probability_pct": 46.6,
             "num_bookmakers": 20
           }
         ],
