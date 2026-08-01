@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T07:54:03.659382+00:00",
+  "generated_at": "2026-08-01T12:15:08.199145+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -69,8 +69,8 @@
         "selection": "Hull City",
         "point": null,
         "best_odds": 8.2,
-        "average_odds": 6.96,
-        "implied_probability_pct": 14.4,
+        "average_odds": 6.97,
+        "implied_probability_pct": 14.3,
         "num_bookmakers": 20
       },
       "markets": {
@@ -79,8 +79,8 @@
             "selection": "Hull City",
             "point": null,
             "best_odds": 8.2,
-            "average_odds": 6.96,
-            "implied_probability_pct": 14.4,
+            "average_odds": 6.97,
+            "implied_probability_pct": 14.3,
             "num_bookmakers": 20
           },
           {
@@ -96,7 +96,7 @@
             "point": null,
             "best_odds": 1.48,
             "average_odds": 1.43,
-            "implied_probability_pct": 70.1,
+            "implied_probability_pct": 70.2,
             "num_bookmakers": 20
           }
         ],
@@ -188,7 +188,7 @@
         "point": null,
         "best_odds": 2.88,
         "average_odds": 2.68,
-        "implied_probability_pct": 37.4,
+        "implied_probability_pct": 37.3,
         "num_bookmakers": 20
       },
       "markets": {
@@ -198,7 +198,7 @@
             "point": null,
             "best_odds": 2.88,
             "average_odds": 2.68,
-            "implied_probability_pct": 37.4,
+            "implied_probability_pct": 37.3,
             "num_bookmakers": 20
           },
           {
@@ -243,29 +243,29 @@
       "match": "Nottingham Forest vs Leeds United",
       "commence_time": "2026-08-22T14:00:00Z",
       "top_tip": {
-        "selection": "Draw",
+        "selection": "Leeds United",
         "point": null,
-        "best_odds": 3.6,
-        "average_odds": 3.37,
-        "implied_probability_pct": 29.7,
+        "best_odds": 3.4,
+        "average_odds": 3.14,
+        "implied_probability_pct": 31.9,
         "num_bookmakers": 20
       },
       "markets": {
         "h2h": [
+          {
+            "selection": "Leeds United",
+            "point": null,
+            "best_odds": 3.4,
+            "average_odds": 3.14,
+            "implied_probability_pct": 31.9,
+            "num_bookmakers": 20
+          },
           {
             "selection": "Draw",
             "point": null,
             "best_odds": 3.6,
             "average_odds": 3.37,
             "implied_probability_pct": 29.7,
-            "num_bookmakers": 20
-          },
-          {
-            "selection": "Leeds United",
-            "point": null,
-            "best_odds": 3.35,
-            "average_odds": 3.13,
-            "implied_probability_pct": 31.9,
             "num_bookmakers": 20
           },
           {
@@ -322,7 +322,7 @@
           {
             "selection": "Brentford",
             "point": null,
-            "best_odds": 2.5,
+            "best_odds": 2.52,
             "average_odds": 2.34,
             "implied_probability_pct": 42.7,
             "num_bookmakers": 20
@@ -390,8 +390,8 @@
             "selection": "Brighton and Hove Albion",
             "point": null,
             "best_odds": 2.4,
-            "average_odds": 2.27,
-            "implied_probability_pct": 44.1,
+            "average_odds": 2.26,
+            "implied_probability_pct": 44.2,
             "num_bookmakers": 20
           }
         ],
@@ -423,7 +423,7 @@
         "selection": "Bournemouth",
         "point": null,
         "best_odds": 7.0,
-        "average_odds": 6.07,
+        "average_odds": 6.05,
         "implied_probability_pct": 16.5,
         "num_bookmakers": 20
       },
@@ -433,7 +433,7 @@
             "selection": "Bournemouth",
             "point": null,
             "best_odds": 7.0,
-            "average_odds": 6.07,
+            "average_odds": 6.05,
             "implied_probability_pct": 16.5,
             "num_bookmakers": 20
           },
