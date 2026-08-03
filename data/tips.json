@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T17:16:57.369398+00:00",
+  "generated_at": "2026-08-03T21:51:59.055135+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -37,7 +37,7 @@
             "point": null,
             "best_odds": 1.19,
             "average_odds": 1.16,
-            "implied_probability_pct": 86.4,
+            "implied_probability_pct": 86.5,
             "num_bookmakers": 20
           }
         ],
@@ -390,8 +390,8 @@
             "selection": "Brighton and Hove Albion",
             "point": null,
             "best_odds": 2.38,
-            "average_odds": 2.26,
-            "implied_probability_pct": 44.3,
+            "average_odds": 2.27,
+            "implied_probability_pct": 44.1,
             "num_bookmakers": 20
           }
         ],
@@ -450,7 +450,7 @@
             "point": null,
             "best_odds": 1.48,
             "average_odds": 1.43,
-            "implied_probability_pct": 69.8,
+            "implied_probability_pct": 69.9,
             "num_bookmakers": 20
           }
         ],
