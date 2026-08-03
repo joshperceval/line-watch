@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T18:15:25.948430+00:00",
+  "generated_at": "2026-08-03T08:51:31.907053+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -10,8 +10,8 @@
         "selection": "Coventry City",
         "point": null,
         "best_odds": 19.01,
-        "average_odds": 15.55,
-        "implied_probability_pct": 6.4,
+        "average_odds": 15.95,
+        "implied_probability_pct": 6.3,
         "num_bookmakers": 20
       },
       "markets": {
@@ -20,16 +20,16 @@
             "selection": "Coventry City",
             "point": null,
             "best_odds": 19.01,
-            "average_odds": 15.55,
-            "implied_probability_pct": 6.4,
+            "average_odds": 15.95,
+            "implied_probability_pct": 6.3,
             "num_bookmakers": 20
           },
           {
             "selection": "Draw",
             "point": null,
             "best_odds": 8.6,
-            "average_odds": 7.12,
-            "implied_probability_pct": 14.0,
+            "average_odds": 7.22,
+            "implied_probability_pct": 13.9,
             "num_bookmakers": 20
           },
           {
@@ -37,7 +37,7 @@
             "point": null,
             "best_odds": 1.19,
             "average_odds": 1.16,
-            "implied_probability_pct": 86.1,
+            "implied_probability_pct": 86.4,
             "num_bookmakers": 20
           }
         ],
@@ -46,16 +46,16 @@
             "selection": "Under 2.5",
             "point": 2.5,
             "best_odds": 2.4,
-            "average_odds": 2.29,
-            "implied_probability_pct": 43.7,
+            "average_odds": 2.38,
+            "implied_probability_pct": 42.1,
             "num_bookmakers": 4
           },
           {
             "selection": "Over 2.5",
             "point": 2.5,
-            "best_odds": 1.64,
-            "average_odds": 1.58,
-            "implied_probability_pct": 63.1,
+            "best_odds": 1.56,
+            "average_odds": 1.55,
+            "implied_probability_pct": 64.7,
             "num_bookmakers": 4
           }
         ]
@@ -146,8 +146,8 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 3.55,
-            "average_odds": 3.4,
-            "implied_probability_pct": 29.4,
+            "average_odds": 3.41,
+            "implied_probability_pct": 29.3,
             "num_bookmakers": 20
           },
           {
@@ -243,29 +243,29 @@
       "match": "Nottingham Forest vs Leeds United",
       "commence_time": "2026-08-22T14:00:00Z",
       "top_tip": {
-        "selection": "Draw",
+        "selection": "Leeds United",
         "point": null,
-        "best_odds": 3.6,
-        "average_odds": 3.38,
-        "implied_probability_pct": 29.6,
+        "best_odds": 3.35,
+        "average_odds": 3.12,
+        "implied_probability_pct": 32.0,
         "num_bookmakers": 20
       },
       "markets": {
         "h2h": [
+          {
+            "selection": "Leeds United",
+            "point": null,
+            "best_odds": 3.35,
+            "average_odds": 3.12,
+            "implied_probability_pct": 32.0,
+            "num_bookmakers": 20
+          },
           {
             "selection": "Draw",
             "point": null,
             "best_odds": 3.6,
             "average_odds": 3.38,
             "implied_probability_pct": 29.6,
-            "num_bookmakers": 20
-          },
-          {
-            "selection": "Leeds United",
-            "point": null,
-            "best_odds": 3.3,
-            "average_odds": 3.12,
-            "implied_probability_pct": 32.1,
             "num_bookmakers": 20
           },
           {
@@ -324,7 +324,7 @@
             "point": null,
             "best_odds": 2.56,
             "average_odds": 2.36,
-            "implied_probability_pct": 42.4,
+            "implied_probability_pct": 42.3,
             "num_bookmakers": 20
           },
           {
@@ -332,7 +332,7 @@
             "point": null,
             "best_odds": 2.85,
             "average_odds": 2.73,
-            "implied_probability_pct": 36.6,
+            "implied_probability_pct": 36.7,
             "num_bookmakers": 20
           }
         ],
@@ -363,8 +363,8 @@
       "top_tip": {
         "selection": "Draw",
         "point": null,
-        "best_odds": 3.8,
-        "average_odds": 3.6,
+        "best_odds": 3.75,
+        "average_odds": 3.59,
         "implied_probability_pct": 27.8,
         "num_bookmakers": 20
       },
@@ -373,8 +373,8 @@
           {
             "selection": "Draw",
             "point": null,
-            "best_odds": 3.8,
-            "average_odds": 3.6,
+            "best_odds": 3.75,
+            "average_odds": 3.59,
             "implied_probability_pct": 27.8,
             "num_bookmakers": 20
           },
@@ -423,8 +423,8 @@
         "selection": "Bournemouth",
         "point": null,
         "best_odds": 6.6,
-        "average_odds": 5.96,
-        "implied_probability_pct": 16.8,
+        "average_odds": 5.92,
+        "implied_probability_pct": 16.9,
         "num_bookmakers": 20
       },
       "markets": {
@@ -433,15 +433,15 @@
             "selection": "Bournemouth",
             "point": null,
             "best_odds": 6.6,
-            "average_odds": 5.96,
-            "implied_probability_pct": 16.8,
+            "average_odds": 5.92,
+            "implied_probability_pct": 16.9,
             "num_bookmakers": 20
           },
           {
             "selection": "Draw",
             "point": null,
-            "best_odds": 5.2,
-            "average_odds": 4.88,
+            "best_odds": 5.3,
+            "average_odds": 4.87,
             "implied_probability_pct": 20.5,
             "num_bookmakers": 20
           },
@@ -570,29 +570,29 @@
       "match": "Fulham vs Chelsea",
       "commence_time": "2026-08-24T19:00:00Z",
       "top_tip": {
-        "selection": "Draw",
+        "selection": "Fulham",
         "point": null,
-        "best_odds": 3.9,
-        "average_odds": 3.61,
-        "implied_probability_pct": 27.7,
+        "best_odds": 3.4,
+        "average_odds": 3.06,
+        "implied_probability_pct": 32.7,
         "num_bookmakers": 19
       },
       "markets": {
         "h2h": [
+          {
+            "selection": "Fulham",
+            "point": null,
+            "best_odds": 3.4,
+            "average_odds": 3.06,
+            "implied_probability_pct": 32.7,
+            "num_bookmakers": 19
+          },
           {
             "selection": "Draw",
             "point": null,
             "best_odds": 3.9,
             "average_odds": 3.61,
             "implied_probability_pct": 27.7,
-            "num_bookmakers": 19
-          },
-          {
-            "selection": "Fulham",
-            "point": null,
-            "best_odds": 3.3,
-            "average_odds": 3.05,
-            "implied_probability_pct": 32.8,
             "num_bookmakers": 19
           },
           {
