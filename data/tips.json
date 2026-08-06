@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T02:49:59.163560+00:00",
+  "generated_at": "2026-08-06T05:52:24.415668+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -102,9 +102,9 @@
           {
             "selection": "Draw",
             "point": null,
-            "best_odds": 4.8,
-            "average_odds": 4.44,
-            "implied_probability_pct": 22.5,
+            "best_odds": 4.6,
+            "average_odds": 4.42,
+            "implied_probability_pct": 22.6,
             "num_bookmakers": 20
           },
           {
@@ -145,7 +145,7 @@
         "point": null,
         "best_odds": 3.7,
         "average_odds": 3.36,
-        "implied_probability_pct": 29.8,
+        "implied_probability_pct": 29.7,
         "num_bookmakers": 20
       },
       "markets": {
@@ -155,7 +155,7 @@
             "point": null,
             "best_odds": 3.7,
             "average_odds": 3.36,
-            "implied_probability_pct": 29.8,
+            "implied_probability_pct": 29.7,
             "num_bookmakers": 20
           },
           {
@@ -221,8 +221,8 @@
             "selection": "Ipswich Town",
             "point": null,
             "best_odds": 2.82,
-            "average_odds": 2.66,
-            "implied_probability_pct": 37.5,
+            "average_odds": 2.64,
+            "implied_probability_pct": 37.8,
             "num_bookmakers": 20
           },
           {
@@ -279,9 +279,9 @@
           {
             "selection": "Leeds United",
             "point": null,
-            "best_odds": 3.25,
-            "average_odds": 3.12,
-            "implied_probability_pct": 32.1,
+            "best_odds": 3.2,
+            "average_odds": 3.08,
+            "implied_probability_pct": 32.5,
             "num_bookmakers": 20
           },
           {
@@ -347,8 +347,8 @@
             "selection": "Tottenham Hotspur",
             "point": null,
             "best_odds": 2.8,
-            "average_odds": 2.68,
-            "implied_probability_pct": 37.3,
+            "average_odds": 2.69,
+            "implied_probability_pct": 37.2,
             "num_bookmakers": 20
           }
         ],
@@ -406,8 +406,8 @@
             "selection": "Aston Villa",
             "point": null,
             "best_odds": 2.9,
-            "average_odds": 2.82,
-            "implied_probability_pct": 35.5,
+            "average_odds": 2.78,
+            "implied_probability_pct": 35.9,
             "num_bookmakers": 20
           }
         ],
@@ -466,7 +466,7 @@
             "point": null,
             "best_odds": 1.48,
             "average_odds": 1.42,
-            "implied_probability_pct": 70.4,
+            "implied_probability_pct": 70.5,
             "num_bookmakers": 20
           }
         ],
@@ -586,29 +586,29 @@
       "match": "Fulham vs Chelsea",
       "commence_time": "2026-08-24T19:00:00Z",
       "top_tip": {
-        "selection": "Fulham",
+        "selection": "Draw",
         "point": null,
-        "best_odds": 3.45,
-        "average_odds": 3.04,
-        "implied_probability_pct": 32.9,
+        "best_odds": 3.85,
+        "average_odds": 3.62,
+        "implied_probability_pct": 27.6,
         "num_bookmakers": 19
       },
       "markets": {
         "h2h": [
           {
-            "selection": "Fulham",
-            "point": null,
-            "best_odds": 3.45,
-            "average_odds": 3.04,
-            "implied_probability_pct": 32.9,
-            "num_bookmakers": 19
-          },
-          {
             "selection": "Draw",
             "point": null,
             "best_odds": 3.85,
-            "average_odds": 3.64,
-            "implied_probability_pct": 27.5,
+            "average_odds": 3.62,
+            "implied_probability_pct": 27.6,
+            "num_bookmakers": 19
+          },
+          {
+            "selection": "Fulham",
+            "point": null,
+            "best_odds": 3.25,
+            "average_odds": 3.05,
+            "implied_probability_pct": 32.8,
             "num_bookmakers": 19
           },
           {
@@ -616,7 +616,7 @@
             "point": null,
             "best_odds": 2.25,
             "average_odds": 2.13,
-            "implied_probability_pct": 46.9,
+            "implied_probability_pct": 47.0,
             "num_bookmakers": 19
           }
         ],
@@ -624,9 +624,9 @@
           {
             "selection": "Under 2.5",
             "point": 2.5,
-            "best_odds": 2.3,
-            "average_odds": 2.26,
-            "implied_probability_pct": 44.2,
+            "best_odds": 2.28,
+            "average_odds": 2.25,
+            "implied_probability_pct": 44.4,
             "num_bookmakers": 4
           },
           {
