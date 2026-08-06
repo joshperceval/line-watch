@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T05:52:24.415668+00:00",
+  "generated_at": "2026-08-06T08:42:10.334377+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -102,9 +102,9 @@
           {
             "selection": "Draw",
             "point": null,
-            "best_odds": 4.6,
-            "average_odds": 4.42,
-            "implied_probability_pct": 22.6,
+            "best_odds": 4.8,
+            "average_odds": 4.44,
+            "implied_probability_pct": 22.5,
             "num_bookmakers": 20
           },
           {
@@ -221,8 +221,8 @@
             "selection": "Ipswich Town",
             "point": null,
             "best_odds": 2.82,
-            "average_odds": 2.64,
-            "implied_probability_pct": 37.8,
+            "average_odds": 2.67,
+            "implied_probability_pct": 37.5,
             "num_bookmakers": 20
           },
           {
@@ -279,9 +279,9 @@
           {
             "selection": "Leeds United",
             "point": null,
-            "best_odds": 3.2,
-            "average_odds": 3.08,
-            "implied_probability_pct": 32.5,
+            "best_odds": 3.25,
+            "average_odds": 3.12,
+            "implied_probability_pct": 32.1,
             "num_bookmakers": 20
           },
           {
@@ -377,23 +377,15 @@
       "match": "Brighton and Hove Albion vs Aston Villa",
       "commence_time": "2026-08-23T13:00:00Z",
       "top_tip": {
-        "selection": "Draw",
+        "selection": "Brighton and Hove Albion",
         "point": null,
-        "best_odds": 3.8,
-        "average_odds": 3.61,
-        "implied_probability_pct": 27.7,
+        "best_odds": 2.44,
+        "average_odds": 2.26,
+        "implied_probability_pct": 44.2,
         "num_bookmakers": 20
       },
       "markets": {
         "h2h": [
-          {
-            "selection": "Draw",
-            "point": null,
-            "best_odds": 3.8,
-            "average_odds": 3.61,
-            "implied_probability_pct": 27.7,
-            "num_bookmakers": 20
-          },
           {
             "selection": "Brighton and Hove Albion",
             "point": null,
@@ -403,11 +395,19 @@
             "num_bookmakers": 20
           },
           {
+            "selection": "Draw",
+            "point": null,
+            "best_odds": 3.75,
+            "average_odds": 3.61,
+            "implied_probability_pct": 27.7,
+            "num_bookmakers": 20
+          },
+          {
             "selection": "Aston Villa",
             "point": null,
             "best_odds": 2.9,
-            "average_odds": 2.78,
-            "implied_probability_pct": 35.9,
+            "average_odds": 2.82,
+            "implied_probability_pct": 35.5,
             "num_bookmakers": 20
           }
         ],
@@ -466,7 +466,7 @@
             "point": null,
             "best_odds": 1.48,
             "average_odds": 1.42,
-            "implied_probability_pct": 70.5,
+            "implied_probability_pct": 70.4,
             "num_bookmakers": 20
           }
         ],
@@ -607,16 +607,16 @@
             "selection": "Fulham",
             "point": null,
             "best_odds": 3.25,
-            "average_odds": 3.05,
-            "implied_probability_pct": 32.8,
+            "average_odds": 3.04,
+            "implied_probability_pct": 32.9,
             "num_bookmakers": 19
           },
           {
             "selection": "Chelsea",
             "point": null,
-            "best_odds": 2.25,
+            "best_odds": 2.26,
             "average_odds": 2.13,
-            "implied_probability_pct": 47.0,
+            "implied_probability_pct": 46.9,
             "num_bookmakers": 19
           }
         ],
