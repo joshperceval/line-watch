@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T04:12:14.332773+00:00",
+  "generated_at": "2026-08-08T06:58:56.406113+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -85,7 +85,7 @@
         "selection": "Hull City",
         "point": null,
         "best_odds": 8.4,
-        "average_odds": 7.11,
+        "average_odds": 7.12,
         "implied_probability_pct": 14.1,
         "num_bookmakers": 20
       },
@@ -95,7 +95,7 @@
             "selection": "Hull City",
             "point": null,
             "best_odds": 8.4,
-            "average_odds": 7.11,
+            "average_odds": 7.12,
             "implied_probability_pct": 14.1,
             "num_bookmakers": 20
           },
@@ -440,7 +440,7 @@
         "point": null,
         "best_odds": 7.0,
         "average_odds": 6.08,
-        "implied_probability_pct": 16.5,
+        "implied_probability_pct": 16.4,
         "num_bookmakers": 20
       },
       "markets": {
@@ -450,7 +450,7 @@
             "point": null,
             "best_odds": 7.0,
             "average_odds": 6.08,
-            "implied_probability_pct": 16.5,
+            "implied_probability_pct": 16.4,
             "num_bookmakers": 20
           },
           {
