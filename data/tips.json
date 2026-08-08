@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T01:51:12.232708+00:00",
+  "generated_at": "2026-08-08T04:12:14.332773+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -321,8 +321,8 @@
         "selection": "Draw",
         "point": null,
         "best_odds": 3.75,
-        "average_odds": 3.52,
-        "implied_probability_pct": 28.4,
+        "average_odds": 3.55,
+        "implied_probability_pct": 28.2,
         "num_bookmakers": 20
       },
       "markets": {
@@ -331,16 +331,16 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 3.75,
-            "average_odds": 3.52,
-            "implied_probability_pct": 28.4,
+            "average_odds": 3.55,
+            "implied_probability_pct": 28.2,
             "num_bookmakers": 20
           },
           {
             "selection": "Tottenham Hotspur",
             "point": null,
             "best_odds": 2.9,
-            "average_odds": 2.73,
-            "implied_probability_pct": 36.7,
+            "average_odds": 2.71,
+            "implied_probability_pct": 36.9,
             "num_bookmakers": 20
           },
           {
