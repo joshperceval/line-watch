@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T09:40:58.580508+00:00",
+  "generated_at": "2026-08-08T12:54:41.066066+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -103,8 +103,8 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 4.8,
-            "average_odds": 4.45,
-            "implied_probability_pct": 22.5,
+            "average_odds": 4.43,
+            "implied_probability_pct": 22.6,
             "num_bookmakers": 20
           },
           {
@@ -120,17 +120,17 @@
           {
             "selection": "Under 2.5",
             "point": 2.5,
-            "best_odds": 2.12,
-            "average_odds": 2.07,
-            "implied_probability_pct": 48.3,
+            "best_odds": 2.08,
+            "average_odds": 2.05,
+            "implied_probability_pct": 48.7,
             "num_bookmakers": 4
           },
           {
             "selection": "Over 2.5",
             "point": 2.5,
             "best_odds": 1.73,
-            "average_odds": 1.71,
-            "implied_probability_pct": 58.6,
+            "average_odds": 1.72,
+            "implied_probability_pct": 58.1,
             "num_bookmakers": 4
           }
         ]
@@ -259,29 +259,29 @@
       "match": "Nottingham Forest vs Leeds United",
       "commence_time": "2026-08-22T14:00:00Z",
       "top_tip": {
-        "selection": "Draw",
+        "selection": "Nottingham Forest",
         "point": null,
-        "best_odds": 3.6,
-        "average_odds": 3.39,
-        "implied_probability_pct": 29.5,
+        "best_odds": 2.36,
+        "average_odds": 2.19,
+        "implied_probability_pct": 45.6,
         "num_bookmakers": 20
       },
       "markets": {
         "h2h": [
           {
-            "selection": "Draw",
-            "point": null,
-            "best_odds": 3.6,
-            "average_odds": 3.39,
-            "implied_probability_pct": 29.5,
-            "num_bookmakers": 20
-          },
-          {
             "selection": "Nottingham Forest",
             "point": null,
             "best_odds": 2.36,
-            "average_odds": 2.2,
-            "implied_probability_pct": 45.5,
+            "average_odds": 2.19,
+            "implied_probability_pct": 45.6,
+            "num_bookmakers": 20
+          },
+          {
+            "selection": "Draw",
+            "point": null,
+            "best_odds": 3.55,
+            "average_odds": 3.39,
+            "implied_probability_pct": 29.5,
             "num_bookmakers": 20
           },
           {
@@ -321,8 +321,8 @@
         "selection": "Draw",
         "point": null,
         "best_odds": 3.75,
-        "average_odds": 3.52,
-        "implied_probability_pct": 28.4,
+        "average_odds": 3.55,
+        "implied_probability_pct": 28.2,
         "num_bookmakers": 20
       },
       "markets": {
@@ -331,16 +331,16 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 3.75,
-            "average_odds": 3.52,
-            "implied_probability_pct": 28.4,
+            "average_odds": 3.55,
+            "implied_probability_pct": 28.2,
             "num_bookmakers": 20
           },
           {
             "selection": "Tottenham Hotspur",
             "point": null,
             "best_odds": 2.9,
-            "average_odds": 2.72,
-            "implied_probability_pct": 36.7,
+            "average_odds": 2.71,
+            "implied_probability_pct": 36.9,
             "num_bookmakers": 20
           },
           {
@@ -541,7 +541,7 @@
             "point": null,
             "best_odds": 2.15,
             "average_odds": 2.02,
-            "implied_probability_pct": 49.5,
+            "implied_probability_pct": 49.4,
             "num_bookmakers": 20
           }
         ],
@@ -589,7 +589,7 @@
         "selection": "Draw",
         "point": null,
         "best_odds": 3.85,
-        "average_odds": 3.62,
+        "average_odds": 3.63,
         "implied_probability_pct": 27.6,
         "num_bookmakers": 19
       },
@@ -599,7 +599,7 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 3.85,
-            "average_odds": 3.62,
+            "average_odds": 3.63,
             "implied_probability_pct": 27.6,
             "num_bookmakers": 19
           },
