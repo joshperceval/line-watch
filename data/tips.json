@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T12:57:14.626147+00:00",
+  "generated_at": "2026-08-09T15:34:58.043869+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -169,7 +169,7 @@
           {
             "selection": "Everton",
             "point": null,
-            "best_odds": 2.16,
+            "best_odds": 2.18,
             "average_odds": 2.09,
             "implied_probability_pct": 47.8,
             "num_bookmakers": 20
@@ -202,7 +202,7 @@
       "top_tip": {
         "selection": "Ipswich Town",
         "point": null,
-        "best_odds": 2.86,
+        "best_odds": 2.84,
         "average_odds": 2.67,
         "implied_probability_pct": 37.4,
         "num_bookmakers": 20
@@ -212,7 +212,7 @@
           {
             "selection": "Ipswich Town",
             "point": null,
-            "best_odds": 2.86,
+            "best_odds": 2.84,
             "average_odds": 2.67,
             "implied_probability_pct": 37.4,
             "num_bookmakers": 20
@@ -321,7 +321,7 @@
         "selection": "Draw",
         "point": null,
         "best_odds": 3.75,
-        "average_odds": 3.52,
+        "average_odds": 3.51,
         "implied_probability_pct": 28.4,
         "num_bookmakers": 20
       },
@@ -331,7 +331,7 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 3.75,
-            "average_odds": 3.52,
+            "average_odds": 3.51,
             "implied_probability_pct": 28.4,
             "num_bookmakers": 20
           },
@@ -541,7 +541,7 @@
             "point": null,
             "best_odds": 2.15,
             "average_odds": 2.04,
-            "implied_probability_pct": 48.9,
+            "implied_probability_pct": 49.0,
             "num_bookmakers": 20
           }
         ],
