@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T09:42:32.754890+00:00",
+  "generated_at": "2026-08-09T12:57:14.626147+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -10,7 +10,7 @@
         "selection": "Coventry City",
         "point": null,
         "best_odds": 19.0,
-        "average_odds": 15.87,
+        "average_odds": 15.92,
         "implied_probability_pct": 6.3,
         "num_bookmakers": 20
       },
@@ -20,7 +20,7 @@
             "selection": "Coventry City",
             "point": null,
             "best_odds": 19.0,
-            "average_odds": 15.87,
+            "average_odds": 15.92,
             "implied_probability_pct": 6.3,
             "num_bookmakers": 20
           },
@@ -202,7 +202,7 @@
       "top_tip": {
         "selection": "Ipswich Town",
         "point": null,
-        "best_odds": 2.84,
+        "best_odds": 2.86,
         "average_odds": 2.67,
         "implied_probability_pct": 37.4,
         "num_bookmakers": 20
@@ -212,7 +212,7 @@
           {
             "selection": "Ipswich Town",
             "point": null,
-            "best_odds": 2.84,
+            "best_odds": 2.86,
             "average_odds": 2.67,
             "implied_probability_pct": 37.4,
             "num_bookmakers": 20
