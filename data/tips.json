@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T18:45:49.951379+00:00",
+  "generated_at": "2026-08-09T21:35:35.106229+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -35,9 +35,9 @@
           {
             "selection": "Arsenal",
             "point": null,
-            "best_odds": 1.19,
+            "best_odds": 1.18,
             "average_odds": 1.15,
-            "implied_probability_pct": 86.7,
+            "implied_probability_pct": 86.8,
             "num_bookmakers": 20
           }
         ],
@@ -110,9 +110,9 @@
           {
             "selection": "Manchester United",
             "point": null,
-            "best_odds": 1.45,
+            "best_odds": 1.46,
             "average_odds": 1.42,
-            "implied_probability_pct": 70.6,
+            "implied_probability_pct": 70.5,
             "num_bookmakers": 20
           }
         ],
@@ -120,17 +120,17 @@
           {
             "selection": "Under 2.5",
             "point": 2.5,
-            "best_odds": 2.08,
+            "best_odds": 2.07,
             "average_odds": 2.05,
-            "implied_probability_pct": 48.7,
+            "implied_probability_pct": 48.8,
             "num_bookmakers": 4
           },
           {
             "selection": "Over 2.5",
             "point": 2.5,
-            "best_odds": 1.73,
-            "average_odds": 1.72,
-            "implied_probability_pct": 58.1,
+            "best_odds": 1.74,
+            "average_odds": 1.73,
+            "implied_probability_pct": 57.9,
             "num_bookmakers": 4
           }
         ]
@@ -338,7 +338,7 @@
           {
             "selection": "Tottenham Hotspur",
             "point": null,
-            "best_odds": 2.92,
+            "best_odds": 2.9,
             "average_odds": 2.72,
             "implied_probability_pct": 36.7,
             "num_bookmakers": 20
@@ -346,9 +346,9 @@
           {
             "selection": "Brentford",
             "point": null,
-            "best_odds": 2.54,
-            "average_odds": 2.39,
-            "implied_probability_pct": 41.8,
+            "best_odds": 2.56,
+            "average_odds": 2.4,
+            "implied_probability_pct": 41.7,
             "num_bookmakers": 20
           }
         ],
@@ -405,9 +405,9 @@
           {
             "selection": "Brighton and Hove Albion",
             "point": null,
-            "best_odds": 2.32,
-            "average_odds": 2.25,
-            "implied_probability_pct": 44.4,
+            "best_odds": 2.34,
+            "average_odds": 2.26,
+            "implied_probability_pct": 44.3,
             "num_bookmakers": 20
           }
         ],
