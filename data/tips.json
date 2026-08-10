@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T04:40:24.494419+00:00",
+  "generated_at": "2026-08-10T07:47:19.466897+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -28,8 +28,8 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 9.2,
-            "average_odds": 7.31,
-            "implied_probability_pct": 13.7,
+            "average_odds": 7.33,
+            "implied_probability_pct": 13.6,
             "num_bookmakers": 20
           },
           {
@@ -84,8 +84,8 @@
       "top_tip": {
         "selection": "Hull City",
         "point": null,
-        "best_odds": 8.6,
-        "average_odds": 7.15,
+        "best_odds": 8.4,
+        "average_odds": 7.14,
         "implied_probability_pct": 14.0,
         "num_bookmakers": 20
       },
@@ -94,8 +94,8 @@
           {
             "selection": "Hull City",
             "point": null,
-            "best_odds": 8.6,
-            "average_odds": 7.15,
+            "best_odds": 8.4,
+            "average_odds": 7.14,
             "implied_probability_pct": 14.0,
             "num_bookmakers": 20
           },
@@ -169,7 +169,7 @@
           {
             "selection": "Everton",
             "point": null,
-            "best_odds": 2.16,
+            "best_odds": 2.18,
             "average_odds": 2.09,
             "implied_probability_pct": 47.8,
             "num_bookmakers": 20
@@ -220,7 +220,7 @@
           {
             "selection": "Sunderland",
             "point": null,
-            "best_odds": 2.66,
+            "best_odds": 2.64,
             "average_odds": 2.52,
             "implied_probability_pct": 39.7,
             "num_bookmakers": 20
@@ -340,7 +340,7 @@
             "point": null,
             "best_odds": 2.9,
             "average_odds": 2.72,
-            "implied_probability_pct": 36.7,
+            "implied_probability_pct": 36.8,
             "num_bookmakers": 20
           },
           {
