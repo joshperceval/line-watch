@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T19:01:18.770984+00:00",
+  "generated_at": "2026-08-10T21:44:42.731750+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -9,8 +9,8 @@
       "top_tip": {
         "selection": "Coventry City",
         "point": null,
-        "best_odds": 19.01,
-        "average_odds": 15.95,
+        "best_odds": 19.5,
+        "average_odds": 15.98,
         "implied_probability_pct": 6.3,
         "num_bookmakers": 20
       },
@@ -19,8 +19,8 @@
           {
             "selection": "Coventry City",
             "point": null,
-            "best_odds": 19.01,
-            "average_odds": 15.95,
+            "best_odds": 19.5,
+            "average_odds": 15.98,
             "implied_probability_pct": 6.3,
             "num_bookmakers": 20
           },
@@ -35,7 +35,7 @@
           {
             "selection": "Arsenal",
             "point": null,
-            "best_odds": 1.19,
+            "best_odds": 1.18,
             "average_odds": 1.15,
             "implied_probability_pct": 86.8,
             "num_bookmakers": 20
@@ -169,8 +169,8 @@
           {
             "selection": "Everton",
             "point": null,
-            "best_odds": 2.2,
-            "average_odds": 2.09,
+            "best_odds": 2.22,
+            "average_odds": 2.1,
             "implied_probability_pct": 47.7,
             "num_bookmakers": 20
           }
@@ -280,8 +280,8 @@
             "selection": "Nottingham Forest",
             "point": null,
             "best_odds": 2.36,
-            "average_odds": 2.2,
-            "implied_probability_pct": 45.5,
+            "average_odds": 2.19,
+            "implied_probability_pct": 45.6,
             "num_bookmakers": 20
           },
           {
@@ -336,19 +336,19 @@
             "num_bookmakers": 20
           },
           {
-            "selection": "Tottenham Hotspur",
-            "point": null,
-            "best_odds": 2.9,
-            "average_odds": 2.72,
-            "implied_probability_pct": 36.8,
-            "num_bookmakers": 20
-          },
-          {
             "selection": "Brentford",
             "point": null,
             "best_odds": 2.56,
             "average_odds": 2.4,
             "implied_probability_pct": 41.7,
+            "num_bookmakers": 20
+          },
+          {
+            "selection": "Tottenham Hotspur",
+            "point": null,
+            "best_odds": 2.88,
+            "average_odds": 2.72,
+            "implied_probability_pct": 36.8,
             "num_bookmakers": 20
           }
         ],
@@ -407,7 +407,7 @@
             "point": null,
             "best_odds": 2.38,
             "average_odds": 2.26,
-            "implied_probability_pct": 44.2,
+            "implied_probability_pct": 44.3,
             "num_bookmakers": 20
           }
         ],
@@ -541,7 +541,7 @@
             "point": null,
             "best_odds": 2.15,
             "average_odds": 2.03,
-            "implied_probability_pct": 49.3,
+            "implied_probability_pct": 49.2,
             "num_bookmakers": 20
           }
         ],
@@ -607,8 +607,8 @@
             "selection": "Fulham",
             "point": null,
             "best_odds": 3.25,
-            "average_odds": 3.04,
-            "implied_probability_pct": 32.9,
+            "average_odds": 3.05,
+            "implied_probability_pct": 32.8,
             "num_bookmakers": 19
           },
           {
