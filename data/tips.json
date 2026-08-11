@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T01:58:19.105761+00:00",
+  "generated_at": "2026-08-11T04:22:07.224868+00:00",
   "tip_count": 10,
   "tips": [
     {
@@ -246,7 +246,7 @@
         "selection": "Leeds United",
         "point": null,
         "best_odds": 3.3,
-        "average_odds": 3.12,
+        "average_odds": 3.11,
         "implied_probability_pct": 32.1,
         "num_bookmakers": 20
       },
@@ -256,16 +256,8 @@
             "selection": "Leeds United",
             "point": null,
             "best_odds": 3.3,
-            "average_odds": 3.12,
+            "average_odds": 3.11,
             "implied_probability_pct": 32.1,
-            "num_bookmakers": 20
-          },
-          {
-            "selection": "Nottingham Forest",
-            "point": null,
-            "best_odds": 2.36,
-            "average_odds": 2.19,
-            "implied_probability_pct": 45.6,
             "num_bookmakers": 20
           },
           {
@@ -274,6 +266,14 @@
             "best_odds": 3.55,
             "average_odds": 3.39,
             "implied_probability_pct": 29.5,
+            "num_bookmakers": 20
+          },
+          {
+            "selection": "Nottingham Forest",
+            "point": null,
+            "best_odds": 2.3,
+            "average_odds": 2.19,
+            "implied_probability_pct": 45.6,
             "num_bookmakers": 20
           }
         ],
@@ -498,8 +498,8 @@
         "selection": "Newcastle United",
         "point": null,
         "best_odds": 3.55,
-        "average_odds": 3.15,
-        "implied_probability_pct": 31.8,
+        "average_odds": 3.16,
+        "implied_probability_pct": 31.7,
         "num_bookmakers": 20
       },
       "markets": {
@@ -508,8 +508,8 @@
             "selection": "Newcastle United",
             "point": null,
             "best_odds": 3.55,
-            "average_odds": 3.15,
-            "implied_probability_pct": 31.8,
+            "average_odds": 3.16,
+            "implied_probability_pct": 31.7,
             "num_bookmakers": 20
           },
           {
@@ -525,7 +525,7 @@
             "point": null,
             "best_odds": 2.15,
             "average_odds": 2.04,
-            "implied_probability_pct": 48.9,
+            "implied_probability_pct": 49.0,
             "num_bookmakers": 20
           }
         ],
@@ -541,9 +541,9 @@
           {
             "selection": "Under 3.5",
             "point": 3.5,
-            "best_odds": 1.64,
-            "average_odds": 1.63,
-            "implied_probability_pct": 61.2,
+            "best_odds": 1.65,
+            "average_odds": 1.64,
+            "implied_probability_pct": 61.0,
             "num_bookmakers": 3
           },
           {
