@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T02:11:11.849882+00:00",
+  "generated_at": "2026-08-12T04:49:32.503718+00:00",
   "tip_count": 18,
   "tips": [
     {
@@ -69,8 +69,8 @@
         "selection": "Hull City",
         "point": null,
         "best_odds": 8.6,
-        "average_odds": 7.35,
-        "implied_probability_pct": 13.6,
+        "average_odds": 7.53,
+        "implied_probability_pct": 13.3,
         "num_bookmakers": 20
       },
       "markets": {
@@ -79,16 +79,16 @@
             "selection": "Hull City",
             "point": null,
             "best_odds": 8.6,
-            "average_odds": 7.35,
-            "implied_probability_pct": 13.6,
+            "average_odds": 7.53,
+            "implied_probability_pct": 13.3,
             "num_bookmakers": 20
           },
           {
             "selection": "Draw",
             "point": null,
             "best_odds": 4.9,
-            "average_odds": 4.51,
-            "implied_probability_pct": 22.2,
+            "average_odds": 4.52,
+            "implied_probability_pct": 22.1,
             "num_bookmakers": 20
           },
           {
@@ -96,7 +96,7 @@
             "point": null,
             "best_odds": 1.44,
             "average_odds": 1.39,
-            "implied_probability_pct": 71.9,
+            "implied_probability_pct": 72.2,
             "num_bookmakers": 20
           }
         ],
@@ -716,9 +716,9 @@
       "top_tip": {
         "selection": "Philadelphia 76ers",
         "point": null,
-        "best_odds": 2.63,
-        "average_odds": 2.49,
-        "implied_probability_pct": 40.2,
+        "best_odds": 2.7,
+        "average_odds": 2.57,
+        "implied_probability_pct": 39.0,
         "num_bookmakers": 7
       },
       "markets": {
@@ -726,51 +726,51 @@
           {
             "selection": "Philadelphia 76ers",
             "point": null,
-            "best_odds": 2.63,
-            "average_odds": 2.49,
-            "implied_probability_pct": 40.2,
+            "best_odds": 2.7,
+            "average_odds": 2.57,
+            "implied_probability_pct": 39.0,
             "num_bookmakers": 7
           },
           {
             "selection": "New York Knicks",
             "point": null,
             "best_odds": 1.57,
-            "average_odds": 1.54,
-            "implied_probability_pct": 65.0,
+            "average_odds": 1.51,
+            "implied_probability_pct": 66.2,
             "num_bookmakers": 7
           }
         ],
         "totals": [
           {
-            "selection": "Over 228.5",
-            "point": 228.5,
-            "best_odds": 1.93,
+            "selection": "Over 232.5",
+            "point": 232.5,
+            "best_odds": 1.92,
             "average_odds": 1.91,
             "implied_probability_pct": 52.4,
             "num_bookmakers": 4
           },
           {
-            "selection": "Under 228.5",
-            "point": 228.5,
-            "best_odds": 1.91,
+            "selection": "Under 232.5",
+            "point": 232.5,
+            "best_odds": 1.9,
             "average_odds": 1.89,
-            "implied_probability_pct": 53.0,
+            "implied_probability_pct": 52.9,
             "num_bookmakers": 4
           },
           {
-            "selection": "Over 228.0",
-            "point": 228.0,
-            "best_odds": 1.89,
-            "average_odds": 1.89,
-            "implied_probability_pct": 52.9,
+            "selection": "Over 228.5",
+            "point": 228.5,
+            "best_odds": 1.91,
+            "average_odds": 1.91,
+            "implied_probability_pct": 52.4,
             "num_bookmakers": 2
           },
           {
-            "selection": "Under 228.0",
-            "point": 228.0,
-            "best_odds": 1.93,
-            "average_odds": 1.93,
-            "implied_probability_pct": 51.8,
+            "selection": "Under 228.5",
+            "point": 228.5,
+            "best_odds": 1.91,
+            "average_odds": 1.91,
+            "implied_probability_pct": 52.4,
             "num_bookmakers": 2
           }
         ],
