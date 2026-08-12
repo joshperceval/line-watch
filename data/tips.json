@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T04:49:32.503718+00:00",
+  "generated_at": "2026-08-12T07:37:29.599400+00:00",
   "tip_count": 18,
   "tips": [
     {
@@ -10,8 +10,8 @@
         "selection": "Coventry City",
         "point": null,
         "best_odds": 19.01,
-        "average_odds": 16.0,
-        "implied_probability_pct": 6.2,
+        "average_odds": 15.98,
+        "implied_probability_pct": 6.3,
         "num_bookmakers": 20
       },
       "markets": {
@@ -20,8 +20,8 @@
             "selection": "Coventry City",
             "point": null,
             "best_odds": 19.01,
-            "average_odds": 16.0,
-            "implied_probability_pct": 6.2,
+            "average_odds": 15.98,
+            "implied_probability_pct": 6.3,
             "num_bookmakers": 20
           },
           {
@@ -153,9 +153,9 @@
           {
             "selection": "Everton",
             "point": null,
-            "best_odds": 2.22,
-            "average_odds": 2.09,
-            "implied_probability_pct": 47.8,
+            "best_odds": 2.24,
+            "average_odds": 2.1,
+            "implied_probability_pct": 47.7,
             "num_bookmakers": 20
           }
         ],
@@ -247,7 +247,7 @@
         "point": null,
         "best_odds": 3.3,
         "average_odds": 3.12,
-        "implied_probability_pct": 32.0,
+        "implied_probability_pct": 32.1,
         "num_bookmakers": 20
       },
       "markets": {
@@ -257,7 +257,7 @@
             "point": null,
             "best_odds": 3.3,
             "average_odds": 3.12,
-            "implied_probability_pct": 32.0,
+            "implied_probability_pct": 32.1,
             "num_bookmakers": 20
           },
           {
@@ -449,7 +449,7 @@
             "selection": "Manchester City",
             "point": null,
             "best_odds": 1.47,
-            "average_odds": 1.43,
+            "average_odds": 1.42,
             "implied_probability_pct": 70.2,
             "num_bookmakers": 20
           }
