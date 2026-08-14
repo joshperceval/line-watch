@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T02:11:22.021634+00:00",
+  "generated_at": "2026-08-14T04:50:25.166931+00:00",
   "tip_count": 24,
   "tips": [
     {
@@ -102,8 +102,8 @@
       "top_tip": {
         "selection": "Hull City",
         "point": null,
-        "best_odds": 8.8,
-        "average_odds": 7.63,
+        "best_odds": 9.0,
+        "average_odds": 7.65,
         "implied_probability_pct": 13.1,
         "num_bookmakers": 21
       },
@@ -112,8 +112,8 @@
           {
             "selection": "Hull City",
             "point": null,
-            "best_odds": 8.8,
-            "average_odds": 7.63,
+            "best_odds": 9.0,
+            "average_odds": 7.65,
             "implied_probability_pct": 13.1,
             "num_bookmakers": 21
           },
@@ -233,9 +233,9 @@
           {
             "selection": "Crystal Palace 0.25",
             "point": 0.25,
-            "best_odds": 2.02,
-            "average_odds": 2.02,
-            "implied_probability_pct": 49.5,
+            "best_odds": 2.0,
+            "average_odds": 2.0,
+            "implied_probability_pct": 50.0,
             "num_bookmakers": 1
           },
           {
@@ -276,7 +276,7 @@
             "point": null,
             "best_odds": 2.88,
             "average_odds": 2.69,
-            "implied_probability_pct": 37.1,
+            "implied_probability_pct": 37.2,
             "num_bookmakers": 21
           },
           {
@@ -334,7 +334,7 @@
         "selection": "Leeds United",
         "point": null,
         "best_odds": 3.4,
-        "average_odds": 3.15,
+        "average_odds": 3.14,
         "implied_probability_pct": 31.8,
         "num_bookmakers": 21
       },
@@ -344,7 +344,7 @@
             "selection": "Leeds United",
             "point": null,
             "best_odds": 3.4,
-            "average_odds": 3.15,
+            "average_odds": 3.14,
             "implied_probability_pct": 31.8,
             "num_bookmakers": 21
           },
@@ -411,8 +411,8 @@
         "selection": "Draw",
         "point": null,
         "best_odds": 3.75,
-        "average_odds": 3.54,
-        "implied_probability_pct": 28.2,
+        "average_odds": 3.55,
+        "implied_probability_pct": 28.1,
         "num_bookmakers": 21
       },
       "markets": {
@@ -421,16 +421,16 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 3.75,
-            "average_odds": 3.54,
-            "implied_probability_pct": 28.2,
+            "average_odds": 3.55,
+            "implied_probability_pct": 28.1,
             "num_bookmakers": 21
           },
           {
             "selection": "Brentford",
             "point": null,
             "best_odds": 2.6,
-            "average_odds": 2.42,
-            "implied_probability_pct": 41.2,
+            "average_odds": 2.41,
+            "implied_probability_pct": 41.4,
             "num_bookmakers": 21
           },
           {
@@ -454,9 +454,9 @@
           {
             "selection": "Over 2.5",
             "point": 2.5,
-            "best_odds": 1.67,
+            "best_odds": 1.68,
             "average_odds": 1.64,
-            "implied_probability_pct": 61.0,
+            "implied_probability_pct": 60.9,
             "num_bookmakers": 5
           }
         ],
@@ -531,9 +531,9 @@
           {
             "selection": "Over 2.5",
             "point": 2.5,
-            "best_odds": 1.62,
+            "best_odds": 1.64,
             "average_odds": 1.6,
-            "implied_probability_pct": 62.5,
+            "implied_probability_pct": 62.3,
             "num_bookmakers": 5
           }
         ],
@@ -748,29 +748,29 @@
       "match": "Fulham vs Chelsea",
       "commence_time": "2026-08-24T19:00:00Z",
       "top_tip": {
-        "selection": "Fulham",
+        "selection": "Draw",
         "point": null,
-        "best_odds": 3.45,
-        "average_odds": 3.18,
-        "implied_probability_pct": 31.5,
+        "best_odds": 3.95,
+        "average_odds": 3.68,
+        "implied_probability_pct": 27.2,
         "num_bookmakers": 20
       },
       "markets": {
         "h2h": [
           {
-            "selection": "Fulham",
-            "point": null,
-            "best_odds": 3.45,
-            "average_odds": 3.18,
-            "implied_probability_pct": 31.5,
-            "num_bookmakers": 20
-          },
-          {
             "selection": "Draw",
             "point": null,
             "best_odds": 3.95,
-            "average_odds": 3.69,
-            "implied_probability_pct": 27.1,
+            "average_odds": 3.68,
+            "implied_probability_pct": 27.2,
+            "num_bookmakers": 20
+          },
+          {
+            "selection": "Fulham",
+            "point": null,
+            "best_odds": 3.45,
+            "average_odds": 3.2,
+            "implied_probability_pct": 31.3,
             "num_bookmakers": 20
           },
           {
@@ -786,9 +786,9 @@
           {
             "selection": "Under 2.5",
             "point": 2.5,
-            "best_odds": 2.4,
+            "best_odds": 2.38,
             "average_odds": 2.3,
-            "implied_probability_pct": 43.4,
+            "implied_probability_pct": 43.5,
             "num_bookmakers": 5
           },
           {
@@ -802,19 +802,19 @@
         ],
         "spreads": [
           {
-            "selection": "Chelsea -0.25",
-            "point": -0.25,
-            "best_odds": 1.86,
-            "average_odds": 1.86,
-            "implied_probability_pct": 53.8,
-            "num_bookmakers": 1
-          },
-          {
-            "selection": "Fulham 0.25",
-            "point": 0.25,
+            "selection": "Chelsea -0.5",
+            "point": -0.5,
             "best_odds": 2.08,
             "average_odds": 2.08,
             "implied_probability_pct": 48.1,
+            "num_bookmakers": 1
+          },
+          {
+            "selection": "Fulham 0.5",
+            "point": 0.5,
+            "best_odds": 1.84,
+            "average_odds": 1.84,
+            "implied_probability_pct": 54.3,
             "num_bookmakers": 1
           }
         ]
