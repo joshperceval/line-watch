@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T07:36:43.265132+00:00",
+  "generated_at": "2026-08-14T10:06:01.487988+00:00",
   "tip_count": 24,
   "tips": [
     {
@@ -10,7 +10,7 @@
         "selection": "Coventry City",
         "point": null,
         "best_odds": 20.0,
-        "average_odds": 16.21,
+        "average_odds": 16.19,
         "implied_probability_pct": 6.2,
         "num_bookmakers": 21
       },
@@ -20,7 +20,7 @@
             "selection": "Coventry City",
             "point": null,
             "best_odds": 20.0,
-            "average_odds": 16.21,
+            "average_odds": 16.19,
             "implied_probability_pct": 6.2,
             "num_bookmakers": 21
           },
@@ -28,16 +28,16 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 8.6,
-            "average_odds": 7.36,
+            "average_odds": 7.34,
             "implied_probability_pct": 13.6,
             "num_bookmakers": 21
           },
           {
             "selection": "Arsenal",
             "point": null,
-            "best_odds": 1.19,
-            "average_odds": 1.15,
-            "implied_probability_pct": 86.6,
+            "best_odds": 1.2,
+            "average_odds": 1.16,
+            "implied_probability_pct": 86.5,
             "num_bookmakers": 21
           }
         ],
@@ -45,9 +45,9 @@
           {
             "selection": "Under 2.5",
             "point": 2.5,
-            "best_odds": 2.48,
-            "average_odds": 2.39,
-            "implied_probability_pct": 41.8,
+            "best_odds": 2.5,
+            "average_odds": 2.4,
+            "implied_probability_pct": 41.7,
             "num_bookmakers": 3
           },
           {
@@ -87,9 +87,9 @@
           {
             "selection": "Coventry City 2.0",
             "point": 2.0,
-            "best_odds": 1.96,
-            "average_odds": 1.96,
-            "implied_probability_pct": 51.0,
+            "best_odds": 1.94,
+            "average_odds": 1.94,
+            "implied_probability_pct": 51.5,
             "num_bookmakers": 1
           }
         ]
@@ -120,7 +120,7 @@
           {
             "selection": "Draw",
             "point": null,
-            "best_odds": 4.9,
+            "best_odds": 4.8,
             "average_odds": 4.58,
             "implied_probability_pct": 21.8,
             "num_bookmakers": 21
@@ -146,9 +146,9 @@
           {
             "selection": "Under 2.5",
             "point": 2.5,
-            "best_odds": 2.16,
+            "best_odds": 2.15,
             "average_odds": 2.11,
-            "implied_probability_pct": 47.3,
+            "implied_probability_pct": 47.4,
             "num_bookmakers": 5
           }
         ],
@@ -180,8 +180,8 @@
         "selection": "Crystal Palace",
         "point": null,
         "best_odds": 3.7,
-        "average_odds": 3.37,
-        "implied_probability_pct": 29.7,
+        "average_odds": 3.36,
+        "implied_probability_pct": 29.8,
         "num_bookmakers": 21
       },
       "markets": {
@@ -190,15 +190,15 @@
             "selection": "Crystal Palace",
             "point": null,
             "best_odds": 3.7,
-            "average_odds": 3.37,
-            "implied_probability_pct": 29.7,
+            "average_odds": 3.36,
+            "implied_probability_pct": 29.8,
             "num_bookmakers": 21
           },
           {
             "selection": "Everton",
             "point": null,
             "best_odds": 2.24,
-            "average_odds": 2.1,
+            "average_odds": 2.11,
             "implied_probability_pct": 47.5,
             "num_bookmakers": 21
           },
@@ -215,7 +215,7 @@
           {
             "selection": "Over 2.5",
             "point": 2.5,
-            "best_odds": 1.97,
+            "best_odds": 1.96,
             "average_odds": 1.9,
             "implied_probability_pct": 52.7,
             "num_bookmakers": 5
@@ -274,9 +274,9 @@
           {
             "selection": "Ipswich Town",
             "point": null,
-            "best_odds": 2.88,
+            "best_odds": 2.86,
             "average_odds": 2.69,
-            "implied_probability_pct": 37.1,
+            "implied_probability_pct": 37.2,
             "num_bookmakers": 21
           },
           {
@@ -369,7 +369,7 @@
           {
             "selection": "Over 2.5",
             "point": 2.5,
-            "best_odds": 1.95,
+            "best_odds": 1.96,
             "average_odds": 1.89,
             "implied_probability_pct": 53.0,
             "num_bookmakers": 5
@@ -411,8 +411,8 @@
         "selection": "Draw",
         "point": null,
         "best_odds": 3.75,
-        "average_odds": 3.55,
-        "implied_probability_pct": 28.1,
+        "average_odds": 3.54,
+        "implied_probability_pct": 28.2,
         "num_bookmakers": 21
       },
       "markets": {
@@ -421,16 +421,16 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 3.75,
-            "average_odds": 3.55,
-            "implied_probability_pct": 28.1,
+            "average_odds": 3.54,
+            "implied_probability_pct": 28.2,
             "num_bookmakers": 21
           },
           {
             "selection": "Brentford",
             "point": null,
             "best_odds": 2.6,
-            "average_odds": 2.41,
-            "implied_probability_pct": 41.4,
+            "average_odds": 2.42,
+            "implied_probability_pct": 41.2,
             "num_bookmakers": 21
           },
           {
@@ -438,7 +438,7 @@
             "point": null,
             "best_odds": 2.84,
             "average_odds": 2.69,
-            "implied_probability_pct": 37.1,
+            "implied_probability_pct": 37.2,
             "num_bookmakers": 21
           }
         ],
@@ -454,9 +454,9 @@
           {
             "selection": "Over 2.5",
             "point": 2.5,
-            "best_odds": 1.68,
+            "best_odds": 1.67,
             "average_odds": 1.64,
-            "implied_probability_pct": 60.9,
+            "implied_probability_pct": 61.0,
             "num_bookmakers": 5
           }
         ],
@@ -582,7 +582,7 @@
           {
             "selection": "Draw",
             "point": null,
-            "best_odds": 5.6,
+            "best_odds": 5.5,
             "average_odds": 4.96,
             "implied_probability_pct": 20.2,
             "num_bookmakers": 21
@@ -683,7 +683,7 @@
           {
             "selection": "Liverpool",
             "point": null,
-            "best_odds": 1.96,
+            "best_odds": 1.98,
             "average_odds": 1.89,
             "implied_probability_pct": 52.9,
             "num_bookmakers": 21
@@ -727,17 +727,17 @@
           {
             "selection": "Liverpool -0.5",
             "point": -0.5,
-            "best_odds": 1.96,
-            "average_odds": 1.96,
-            "implied_probability_pct": 51.0,
+            "best_odds": 1.98,
+            "average_odds": 1.98,
+            "implied_probability_pct": 50.5,
             "num_bookmakers": 1
           },
           {
             "selection": "Newcastle United 0.5",
             "point": 0.5,
-            "best_odds": 2.02,
-            "average_odds": 2.02,
-            "implied_probability_pct": 49.5,
+            "best_odds": 2.0,
+            "average_odds": 2.0,
+            "implied_probability_pct": 50.0,
             "num_bookmakers": 1
           }
         ]
@@ -751,8 +751,8 @@
         "selection": "Draw",
         "point": null,
         "best_odds": 3.95,
-        "average_odds": 3.68,
-        "implied_probability_pct": 27.2,
+        "average_odds": 3.69,
+        "implied_probability_pct": 27.1,
         "num_bookmakers": 20
       },
       "markets": {
@@ -761,24 +761,24 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 3.95,
-            "average_odds": 3.68,
-            "implied_probability_pct": 27.2,
+            "average_odds": 3.69,
+            "implied_probability_pct": 27.1,
             "num_bookmakers": 20
           },
           {
             "selection": "Fulham",
             "point": null,
-            "best_odds": 3.45,
-            "average_odds": 3.2,
-            "implied_probability_pct": 31.3,
+            "best_odds": 3.4,
+            "average_odds": 3.19,
+            "implied_probability_pct": 31.4,
             "num_bookmakers": 20
           },
           {
             "selection": "Chelsea",
             "point": null,
             "best_odds": 2.15,
-            "average_odds": 2.07,
-            "implied_probability_pct": 48.3,
+            "average_odds": 2.08,
+            "implied_probability_pct": 48.2,
             "num_bookmakers": 20
           }
         ],
@@ -802,19 +802,19 @@
         ],
         "spreads": [
           {
-            "selection": "Chelsea -0.5",
-            "point": -0.5,
-            "best_odds": 2.08,
-            "average_odds": 2.08,
-            "implied_probability_pct": 48.1,
+            "selection": "Chelsea -0.25",
+            "point": -0.25,
+            "best_odds": 1.87,
+            "average_odds": 1.87,
+            "implied_probability_pct": 53.5,
             "num_bookmakers": 1
           },
           {
-            "selection": "Fulham 0.5",
-            "point": 0.5,
-            "best_odds": 1.84,
-            "average_odds": 1.84,
-            "implied_probability_pct": 54.3,
+            "selection": "Fulham 0.25",
+            "point": 0.25,
+            "best_odds": 2.1,
+            "average_odds": 2.1,
+            "implied_probability_pct": 47.6,
             "num_bookmakers": 1
           }
         ]
