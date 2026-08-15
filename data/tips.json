@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T01:23:50.441558+00:00",
+  "generated_at": "2026-08-15T03:41:32.711101+00:00",
   "tip_count": 24,
   "tips": [
     {
@@ -10,8 +10,8 @@
         "selection": "Coventry City",
         "point": null,
         "best_odds": 20.0,
-        "average_odds": 15.6,
-        "implied_probability_pct": 6.4,
+        "average_odds": 15.45,
+        "implied_probability_pct": 6.5,
         "num_bookmakers": 21
       },
       "markets": {
@@ -20,8 +20,8 @@
             "selection": "Coventry City",
             "point": null,
             "best_odds": 20.0,
-            "average_odds": 15.6,
-            "implied_probability_pct": 6.4,
+            "average_odds": 15.45,
+            "implied_probability_pct": 6.5,
             "num_bookmakers": 21
           },
           {
@@ -37,7 +37,7 @@
             "point": null,
             "best_odds": 1.2,
             "average_odds": 1.16,
-            "implied_probability_pct": 86.1,
+            "implied_probability_pct": 86.0,
             "num_bookmakers": 21
           }
         ],
@@ -426,19 +426,19 @@
             "num_bookmakers": 21
           },
           {
-            "selection": "Tottenham Hotspur",
-            "point": null,
-            "best_odds": 2.86,
-            "average_odds": 2.7,
-            "implied_probability_pct": 37.0,
-            "num_bookmakers": 21
-          },
-          {
             "selection": "Brentford",
             "point": null,
             "best_odds": 2.56,
             "average_odds": 2.41,
             "implied_probability_pct": 41.5,
+            "num_bookmakers": 21
+          },
+          {
+            "selection": "Tottenham Hotspur",
+            "point": null,
+            "best_odds": 2.86,
+            "average_odds": 2.71,
+            "implied_probability_pct": 36.9,
             "num_bookmakers": 21
           }
         ],
@@ -598,19 +598,19 @@
         ],
         "totals": [
           {
-            "selection": "Under 2.5",
+            "selection": "Over 2.5",
             "point": 2.5,
-            "best_odds": 2.9,
-            "average_odds": 2.48,
-            "implied_probability_pct": 40.3,
+            "best_odds": 1.43,
+            "average_odds": 1.4,
+            "implied_probability_pct": 71.7,
             "num_bookmakers": 2
           },
           {
-            "selection": "Over 2.5",
+            "selection": "Under 2.5",
             "point": 2.5,
-            "best_odds": 1.41,
-            "average_odds": 1.39,
-            "implied_probability_pct": 72.2,
+            "best_odds": 2.96,
+            "average_odds": 2.93,
+            "implied_probability_pct": 34.1,
             "num_bookmakers": 2
           },
           {
@@ -683,9 +683,9 @@
           {
             "selection": "Liverpool",
             "point": null,
-            "best_odds": 1.95,
+            "best_odds": 1.96,
             "average_odds": 1.88,
-            "implied_probability_pct": 53.2,
+            "implied_probability_pct": 53.1,
             "num_bookmakers": 20
           }
         ],
@@ -727,17 +727,17 @@
           {
             "selection": "Liverpool -0.5",
             "point": -0.5,
-            "best_odds": 1.94,
-            "average_odds": 1.94,
-            "implied_probability_pct": 51.5,
+            "best_odds": 1.96,
+            "average_odds": 1.96,
+            "implied_probability_pct": 51.0,
             "num_bookmakers": 1
           },
           {
             "selection": "Newcastle United 0.5",
             "point": 0.5,
-            "best_odds": 2.04,
-            "average_odds": 2.04,
-            "implied_probability_pct": 49.0,
+            "best_odds": 2.02,
+            "average_odds": 2.02,
+            "implied_probability_pct": 49.5,
             "num_bookmakers": 1
           }
         ]
@@ -770,7 +770,7 @@
             "point": null,
             "best_odds": 3.45,
             "average_odds": 3.2,
-            "implied_probability_pct": 31.2,
+            "implied_probability_pct": 31.3,
             "num_bookmakers": 20
           },
           {
