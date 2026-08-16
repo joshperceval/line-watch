@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T01:35:22.159811+00:00",
+  "generated_at": "2026-08-16T03:50:45.675706+00:00",
   "tip_count": 24,
   "tips": [
     {
@@ -428,7 +428,7 @@
           {
             "selection": "Tottenham Hotspur",
             "point": null,
-            "best_odds": 2.86,
+            "best_odds": 2.9,
             "average_odds": 2.71,
             "implied_probability_pct": 36.9,
             "num_bookmakers": 21
@@ -436,9 +436,9 @@
           {
             "selection": "Brentford",
             "point": null,
-            "best_odds": 2.56,
-            "average_odds": 2.42,
-            "implied_probability_pct": 41.3,
+            "best_odds": 2.55,
+            "average_odds": 2.41,
+            "implied_probability_pct": 41.4,
             "num_bookmakers": 21
           }
         ],
@@ -464,17 +464,17 @@
           {
             "selection": "Brentford 0.0",
             "point": 0.0,
-            "best_odds": 1.87,
-            "average_odds": 1.87,
-            "implied_probability_pct": 53.5,
+            "best_odds": 1.84,
+            "average_odds": 1.84,
+            "implied_probability_pct": 54.3,
             "num_bookmakers": 1
           },
           {
             "selection": "Tottenham Hotspur 0.0",
             "point": 0.0,
-            "best_odds": 2.1,
-            "average_odds": 2.1,
-            "implied_probability_pct": 47.6,
+            "best_odds": 2.12,
+            "average_odds": 2.12,
+            "implied_probability_pct": 47.2,
             "num_bookmakers": 1
           }
         ]
@@ -735,9 +735,9 @@
           {
             "selection": "Newcastle United 0.5",
             "point": 0.5,
-            "best_odds": 2.02,
-            "average_odds": 2.02,
-            "implied_probability_pct": 49.5,
+            "best_odds": 2.04,
+            "average_odds": 2.04,
+            "implied_probability_pct": 49.0,
             "num_bookmakers": 1
           }
         ]
