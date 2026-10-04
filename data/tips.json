@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T23:36:17.246535+00:00",
+  "generated_at": "2026-10-04T05:01:57.919682+00:00",
   "tip_count": 41,
   "tips": [
     {
@@ -45,9 +45,9 @@
           {
             "selection": "Over 2.5",
             "point": 2.5,
-            "best_odds": 1.79,
-            "average_odds": 1.72,
-            "implied_probability_pct": 58.0,
+            "best_odds": 1.8,
+            "average_odds": 1.73,
+            "implied_probability_pct": 57.9,
             "num_bookmakers": 5
           },
           {
@@ -233,9 +233,9 @@
           {
             "selection": "Bournemouth 0.75",
             "point": 0.75,
-            "best_odds": 1.95,
-            "average_odds": 1.95,
-            "implied_probability_pct": 51.3,
+            "best_odds": 1.96,
+            "average_odds": 1.96,
+            "implied_probability_pct": 51.0,
             "num_bookmakers": 1
           },
           {
@@ -292,9 +292,9 @@
           {
             "selection": "Under 2.5",
             "point": 2.5,
-            "best_odds": 2.08,
+            "best_odds": 2.1,
             "average_odds": 1.98,
-            "implied_probability_pct": 50.5,
+            "implied_probability_pct": 50.4,
             "num_bookmakers": 5
           },
           {
@@ -456,7 +456,7 @@
             "point": 3.5,
             "best_odds": 1.62,
             "average_odds": 1.61,
-            "implied_probability_pct": 62.1,
+            "implied_probability_pct": 62.2,
             "num_bookmakers": 4
           },
           {
@@ -501,15 +501,23 @@
       "match": "Crystal Palace vs Nottingham Forest",
       "commence_time": "2026-10-11T13:00:00Z",
       "top_tip": {
-        "selection": "Nottingham Forest",
+        "selection": "Draw",
         "point": null,
-        "best_odds": 2.82,
-        "average_odds": 2.64,
-        "implied_probability_pct": 37.9,
+        "best_odds": 3.45,
+        "average_odds": 3.27,
+        "implied_probability_pct": 30.5,
         "num_bookmakers": 20
       },
       "markets": {
         "h2h": [
+          {
+            "selection": "Draw",
+            "point": null,
+            "best_odds": 3.45,
+            "average_odds": 3.27,
+            "implied_probability_pct": 30.5,
+            "num_bookmakers": 20
+          },
           {
             "selection": "Nottingham Forest",
             "point": null,
@@ -519,19 +527,11 @@
             "num_bookmakers": 20
           },
           {
-            "selection": "Draw",
-            "point": null,
-            "best_odds": 3.45,
-            "average_odds": 3.28,
-            "implied_probability_pct": 30.4,
-            "num_bookmakers": 20
-          },
-          {
             "selection": "Crystal Palace",
             "point": null,
             "best_odds": 2.74,
-            "average_odds": 2.61,
-            "implied_probability_pct": 38.3,
+            "average_odds": 2.62,
+            "implied_probability_pct": 38.2,
             "num_bookmakers": 20
           }
         ],
@@ -588,9 +588,9 @@
           {
             "selection": "Everton",
             "point": null,
-            "best_odds": 2.14,
+            "best_odds": 2.16,
             "average_odds": 2.06,
-            "implied_probability_pct": 48.6,
+            "implied_probability_pct": 48.5,
             "num_bookmakers": 20
           }
         ],
@@ -696,9 +696,9 @@
       "top_tip": {
         "selection": "Coventry City",
         "point": null,
-        "best_odds": 3.45,
+        "best_odds": 3.4,
         "average_odds": 3.21,
-        "implied_probability_pct": 31.1,
+        "implied_probability_pct": 31.2,
         "num_bookmakers": 19
       },
       "markets": {
@@ -706,9 +706,9 @@
           {
             "selection": "Coventry City",
             "point": null,
-            "best_odds": 3.45,
+            "best_odds": 3.4,
             "average_odds": 3.21,
-            "implied_probability_pct": 31.1,
+            "implied_probability_pct": 31.2,
             "num_bookmakers": 19
           },
           {
@@ -949,7 +949,7 @@
         "selection": "Ipswich Town",
         "point": null,
         "best_odds": 13.0,
-        "average_odds": 11.11,
+        "average_odds": 11.14,
         "implied_probability_pct": 9.0,
         "num_bookmakers": 14
       },
@@ -959,7 +959,7 @@
             "selection": "Ipswich Town",
             "point": null,
             "best_odds": 13.0,
-            "average_odds": 11.11,
+            "average_odds": 11.14,
             "implied_probability_pct": 9.0,
             "num_bookmakers": 14
           },
@@ -967,8 +967,8 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 7.2,
-            "average_odds": 6.41,
-            "implied_probability_pct": 15.6,
+            "average_odds": 6.39,
+            "implied_probability_pct": 15.7,
             "num_bookmakers": 14
           },
           {
@@ -976,7 +976,7 @@
             "point": null,
             "best_odds": 1.25,
             "average_odds": 1.22,
-            "implied_probability_pct": 81.8,
+            "implied_probability_pct": 81.7,
             "num_bookmakers": 14
           }
         ],
@@ -1021,29 +1021,29 @@
       "match": "Newcastle United vs Aston Villa",
       "commence_time": "2026-10-17T16:30:00Z",
       "top_tip": {
-        "selection": "Aston Villa",
+        "selection": "Draw",
         "point": null,
-        "best_odds": 3.35,
-        "average_odds": 3.15,
-        "implied_probability_pct": 31.7,
+        "best_odds": 3.95,
+        "average_odds": 3.74,
+        "implied_probability_pct": 26.7,
         "num_bookmakers": 15
       },
       "markets": {
         "h2h": [
+          {
+            "selection": "Draw",
+            "point": null,
+            "best_odds": 3.95,
+            "average_odds": 3.74,
+            "implied_probability_pct": 26.7,
+            "num_bookmakers": 15
+          },
           {
             "selection": "Aston Villa",
             "point": null,
             "best_odds": 3.35,
             "average_odds": 3.15,
             "implied_probability_pct": 31.7,
-            "num_bookmakers": 15
-          },
-          {
-            "selection": "Draw",
-            "point": null,
-            "best_odds": 3.95,
-            "average_odds": 3.75,
-            "implied_probability_pct": 26.7,
             "num_bookmakers": 15
           },
           {
@@ -1260,7 +1260,7 @@
         "selection": "Nottingham Forest",
         "point": null,
         "best_odds": 6.1,
-        "average_odds": 5.62,
+        "average_odds": 5.6,
         "implied_probability_pct": 17.8,
         "num_bookmakers": 15
       },
@@ -1270,7 +1270,7 @@
             "selection": "Nottingham Forest",
             "point": null,
             "best_odds": 6.1,
-            "average_odds": 5.62,
+            "average_odds": 5.6,
             "implied_probability_pct": 17.8,
             "num_bookmakers": 15
           },
@@ -1278,8 +1278,8 @@
             "selection": "Draw",
             "point": null,
             "best_odds": 4.1,
-            "average_odds": 3.89,
-            "implied_probability_pct": 25.7,
+            "average_odds": 3.88,
+            "implied_probability_pct": 25.8,
             "num_bookmakers": 15
           },
           {
@@ -1579,9 +1579,9 @@
       "top_tip": {
         "selection": "Oklahoma City Thunder",
         "point": null,
-        "best_odds": 2.1,
-        "average_odds": 2.03,
-        "implied_probability_pct": 49.4,
+        "best_odds": 2.2,
+        "average_odds": 2.08,
+        "implied_probability_pct": 48.0,
         "num_bookmakers": 14
       },
       "markets": {
@@ -1589,52 +1589,36 @@
           {
             "selection": "Oklahoma City Thunder",
             "point": null,
-            "best_odds": 2.1,
-            "average_odds": 2.03,
-            "implied_probability_pct": 49.4,
+            "best_odds": 2.2,
+            "average_odds": 2.08,
+            "implied_probability_pct": 48.0,
             "num_bookmakers": 14
           },
           {
             "selection": "San Antonio Spurs",
             "point": null,
-            "best_odds": 1.81,
-            "average_odds": 1.77,
-            "implied_probability_pct": 56.6,
+            "best_odds": 1.8,
+            "average_odds": 1.73,
+            "implied_probability_pct": 57.9,
             "num_bookmakers": 14
           }
         ],
         "totals": [
           {
-            "selection": "Under 230.5",
-            "point": 230.5,
-            "best_odds": 1.91,
-            "average_odds": 1.87,
-            "implied_probability_pct": 53.4,
-            "num_bookmakers": 5
-          },
-          {
             "selection": "Over 230.5",
             "point": 230.5,
             "best_odds": 1.91,
             "average_odds": 1.88,
-            "implied_probability_pct": 53.2,
-            "num_bookmakers": 5
+            "implied_probability_pct": 53.1,
+            "num_bookmakers": 9
           },
           {
-            "selection": "Over 231.0",
-            "point": 231.0,
+            "selection": "Under 230.5",
+            "point": 230.5,
             "best_odds": 1.92,
-            "average_odds": 1.91,
-            "implied_probability_pct": 52.4,
-            "num_bookmakers": 4
-          },
-          {
-            "selection": "Under 231.0",
-            "point": 231.0,
-            "best_odds": 1.9,
             "average_odds": 1.89,
             "implied_probability_pct": 52.9,
-            "num_bookmakers": 4
+            "num_bookmakers": 9
           },
           {
             "selection": "Over 228.5",
@@ -2579,7 +2563,7 @@
         "selection": "Denver Nuggets",
         "point": null,
         "best_odds": 3.25,
-        "average_odds": 3.14,
+        "average_odds": 3.13,
         "implied_probability_pct": 31.9,
         "num_bookmakers": 9
       },
@@ -2589,7 +2573,7 @@
             "selection": "Denver Nuggets",
             "point": null,
             "best_odds": 3.25,
-            "average_odds": 3.14,
+            "average_odds": 3.13,
             "implied_probability_pct": 31.9,
             "num_bookmakers": 9
           },
@@ -2649,8 +2633,8 @@
             "selection": "Denver Nuggets 7.5",
             "point": 7.5,
             "best_odds": 2.0,
-            "average_odds": 1.95,
-            "implied_probability_pct": 51.3,
+            "average_odds": 1.94,
+            "implied_probability_pct": 51.4,
             "num_bookmakers": 5
           }
         ]
